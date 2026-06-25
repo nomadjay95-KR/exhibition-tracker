@@ -4,6 +4,7 @@ import logging
 import re
 from datetime import datetime
 from typing import List
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -12,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 BASE_URL = "https://kintex.com/web/ko/event/list.do"
 DETAIL_URL = "https://kintex.com/web/ko/event/view.do"
+SITE_ORIGIN = "https://kintex.com"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -102,12 +104,19 @@ def fetch_events() -> List[dict]:
                         else ""
                     )
 
+                    img = card.select_one("img")
+                    image_url = ""
+                    if img is not None:
+                        src = img.get("src") or img.get("data-src") or ""
+                        image_url = urljoin(SITE_ORIGIN, src) if src else ""
+
                     events.append({
                         "name": name,
                         "start_date": start_date,
                         "end_date": end_date,
                         "venue": venue,
                         "url": detail_url,
+                        "image_url": image_url,
                         "source": "KINTEX",
                     })
                 except Exception:

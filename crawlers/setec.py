@@ -1,6 +1,7 @@
 import logging
 import re
 from typing import List
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -9,6 +10,7 @@ logger = logging.getLogger(__name__)
 
 LIST_URL = "https://www.setec.or.kr/front/schedule/list.do"
 VIEW_URL = "https://www.setec.or.kr/front/schedule/view.do"
+SITE_ORIGIN = "https://www.setec.or.kr"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -74,12 +76,20 @@ def _parse_event_card(li_tag) -> dict | None:
         logger.warning("날짜 파싱 실패, 건너뜀: %s", name)
         return None
 
+    # 목록에 썸네일이 있으면 수집 (없으면 빈 문자열 → 프론트 플레이스홀더)
+    img = link.find("img")
+    image_url = ""
+    if img is not None:
+        src = img.get("src") or img.get("data-src") or ""
+        image_url = urljoin(SITE_ORIGIN, src) if src else ""
+
     return {
         "name": name,
         "start_date": start_date,
         "end_date": end_date,
         "venue": venue,
         "url": detail_url,
+        "image_url": image_url,
         "source": "SETEC",
     }
 

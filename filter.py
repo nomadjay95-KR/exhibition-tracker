@@ -43,14 +43,16 @@ EXCLUDE_KEYWORDS = [
 _EXCLUDE_LOWER = [k.lower() for k in EXCLUDE_KEYWORDS]
 
 
+def is_relevant(event: dict) -> bool:
+    """개별 이벤트의 관련 여부를 판단한다."""
+    name = event.get("name", "").lower()
+    if any(ex in name for ex in _EXCLUDE_LOWER):
+        return False
+    return any(kw in name for kw in _KEYWORDS_LOWER)
+
+
 def filter_relevant(events: List[dict]) -> List[dict]:
     """행사명에 키워드가 하나라도 포함된 행사만 필터링한다."""
-    result = []
-    for e in events:
-        name = e.get("name", "").lower()
-        if any(ex in name for ex in _EXCLUDE_LOWER):
-            continue
-        if any(kw in name for kw in _KEYWORDS_LOWER):
-            result.append(e)
+    result = [e for e in events if is_relevant(e)]
     logger.info("전체 %d개 중 %d개 선별", len(events), len(result))
     return result

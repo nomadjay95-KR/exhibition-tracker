@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>전시·행사 트래커 — COEX · SETEC · KINTEX · DDP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>전시·행사 트래커</h1>
+      <p class="subtitle">COEX · SETEC · KINTEX · DDP 전시장 일정을 한곳에서</p>
+      <p class="updated" id="updated"></p>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <div class="search-box">
+        <input
+          type="search"
+          id="search"
+          placeholder="행사명 · 장소 검색"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="filter-group" id="source-filters" aria-label="출처 필터">
+        <!-- 출처 칩 동적 생성 -->
+      </div>
+
+      <div class="filter-group" id="status-filters" aria-label="상태 필터">
+        <button class="chip" data-status="all" data-active="true">전체</button>
+        <button class="chip" data-status="ongoing">진행중</button>
+        <button class="chip" data-status="upcoming">예정</button>
+        <button class="chip" data-status="ended">종료</button>
+      </div>
+
+      <label class="toggle">
+        <input type="checkbox" id="relevant-only" />
+        <span>관련 행사만</span>
+      </label>
+    </div>
+  </div>
+
+  <main>
+    <p class="result-count" id="result-count"></p>
+    <section class="gallery" id="gallery" aria-live="polite"></section>
+    <p class="empty" id="empty" hidden>조건에 맞는 행사가 없습니다.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>크롤링 데이터 · 출처 사이트의 일정을 자동 수집합니다.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

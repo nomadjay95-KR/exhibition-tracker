@@ -10,6 +10,11 @@ except Exception:
     fetch_coex = None
 
 try:
+    from crawlers.ddp import fetch_events as fetch_ddp
+except Exception:
+    fetch_ddp = None
+
+try:
     from crawlers.kintex import fetch_events as fetch_kintex
 except Exception:
     fetch_kintex = None
@@ -21,6 +26,7 @@ except Exception:
 
 CRAWLERS = {
     "coex": ("COEX", fetch_coex),
+    "ddp": ("DDP", fetch_ddp),
     "kintex": ("KINTEX", fetch_kintex),
     "setec": ("SETEC", fetch_setec),
 }
@@ -39,8 +45,9 @@ def format_event(event: dict, show_source: bool = False) -> str:
 
     name = event.get("name", "")
     venue = event.get("venue", "")
+    img_mark = "🖼" if event.get("image_url") else "·"
 
-    line = f"  ✓ {start} ~ {end_display} | {name} | {venue}"
+    line = f"  ✓ {img_mark} {start} ~ {end_display} | {name} | {venue}"
     if show_source:
         line += f" ({event.get('source', '')})"
     return line

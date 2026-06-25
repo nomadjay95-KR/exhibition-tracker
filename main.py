@@ -2,10 +2,11 @@ import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from crawlers.coex import fetch_events as fetch_coex
+from crawlers.ddp import fetch_events as fetch_ddp
 from crawlers.kintex import fetch_events as fetch_kintex
 from crawlers.setec import fetch_events as fetch_setec
 from filter import filter_relevant
-from notifier import push_to_notion
+from store import save_to_json
 
 logging.basicConfig(
     level=logging.INFO,
@@ -15,6 +16,7 @@ logger = logging.getLogger(__name__)
 
 CRAWLERS = {
     "COEX": fetch_coex,
+    "DDP": fetch_ddp,
     "KINTEX": fetch_kintex,
     "SETEC": fetch_setec,
 }
@@ -24,7 +26,7 @@ def _run_crawlers() -> list[dict]:
     """세 크롤러를 병렬 실행하고 결과를 합친다."""
     all_events: list[dict] = []
 
-    with ThreadPoolExecutor(max_workers=3) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         futures = {
             pool.submit(fn): name for name, fn in CRAWLERS.items()
         }
@@ -47,22 +49,21 @@ def main() -> None:
     all_events = _run_crawlers()
     total = len(all_events)
 
-    # 2. 필터링
+    # 2. 필터링 (참고용 — 관련도는 저장 시 각 이벤트에 자동 태깅됨)
     filtered = filter_relevant(all_events)
 
-    # 3. Notion 적재
+    # 3. JSON 저장 (전체 이벤트, 관련도 자동 태깅)
     try:
-        created, skipped = push_to_notion(filtered)
+        saved = save_to_json(all_events)
     except Exception:
-        logger.exception("Notion 적재 중 오류 발생")
-        created, skipped = 0, 0
+        logger.exception("JSON 저장 중 오류 발생")
+        saved = 0
 
     # 4. 요약
     logger.info("=== 실행 결과 요약 ===")
     logger.info("총 수집: %d개", total)
-    logger.info("필터링 후: %d개", len(filtered))
-    logger.info("Notion 신규 등록: %d개", created)
-    logger.info("스킵(중복): %d개", skipped)
+    logger.info("관련 행사: %d개", len(filtered))
+    logger.info("JSON 저장: %d개", saved)
 
 
 if __name__ == "__main__":

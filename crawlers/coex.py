@@ -92,12 +92,19 @@ def fetch_events() -> List[dict]:
                     href = card_link.get("href", "")
                     detail_url = urljoin(SITE_ORIGIN, href) if href else ""
 
+                    img = card_link.select_one("img")
+                    image_url = ""
+                    if img is not None:
+                        src = img.get("src") or img.get("data-src") or ""
+                        image_url = urljoin(SITE_ORIGIN, src) if src else ""
+
                     events.append({
                         "name": name,
                         "start_date": start_date,
                         "end_date": end_date,
                         "venue": venue,
                         "url": detail_url,
+                        "image_url": image_url,
                         "source": "COEX",
                     })
                 except Exception:
