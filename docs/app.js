@@ -81,20 +81,12 @@ function cardEl(ev) {
     img.loading = "lazy";
     img.addEventListener("error", () => {
       // 이미지 로드 실패 시 플레이스홀더로 대체
-      cover.classList.add("placeholder");
-      cover.style.setProperty("--ph-color", colorValue(ev.source));
       img.remove();
-      const ph = document.createElement("span");
-      ph.textContent = ev.source;
-      cover.appendChild(ph);
+      fillPlaceholder(cover, ev.source);
     });
     cover.appendChild(img);
   } else {
-    cover.classList.add("placeholder");
-    cover.style.setProperty("--ph-color", colorValue(ev.source));
-    const ph = document.createElement("span");
-    ph.textContent = ev.source;
-    cover.appendChild(ph);
+    fillPlaceholder(cover, ev.source);
   }
 
   const badge = document.createElement("span");
@@ -121,6 +113,23 @@ function cardEl(ev) {
   card.appendChild(cover);
   card.appendChild(body);
   return card;
+}
+
+// 이미지가 없거나 로드 실패한 카드를 절제된 아이콘 플레이스홀더로 채운다.
+// 출처는 좌측 상단 배지로 이미 구분되므로 출처명을 크게 반복하지 않는다.
+const PLACEHOLDER_ICON =
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">' +
+  '<rect x="3" y="3" width="18" height="18" rx="2"/>' +
+  '<circle cx="8.5" cy="8.5" r="1.6"/>' +
+  '<path d="M21 15l-5-5L5 21"/></svg>';
+
+function fillPlaceholder(cover, source) {
+  cover.classList.add("placeholder");
+  cover.style.setProperty("--ph-color", colorValue(source));
+  const icon = document.createElement("div");
+  icon.className = "ph-icon";
+  icon.innerHTML = PLACEHOLDER_ICON;
+  cover.appendChild(icon);
 }
 
 // CSS 변수(var(--coex))를 실제 색상 값으로 변환

@@ -186,18 +186,22 @@ main {
   object-fit: cover;
   display: block;
 }
-/* 이미지 없을 때 출처색 그라데이션 플레이스홀더 */
+/* 이미지 없을 때 출처색 그라데이션 + 절제된 아이콘 */
 .card-cover.placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--ph-color, #cfcfcf), color-mix(in srgb, var(--ph-color, #cfcfcf) 55%, #ffffff));
+  background: linear-gradient(135deg,
+    color-mix(in srgb, var(--ph-color, #cfcfcf) 78%, #ffffff),
+    color-mix(in srgb, var(--ph-color, #cfcfcf) 40%, #ffffff));
 }
-.card-cover.placeholder span {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.92);
-  letter-spacing: 0.02em;
+.card-cover.placeholder .ph-icon {
+  display: flex;
+  color: rgba(255, 255, 255, 0.7);
+}
+.card-cover.placeholder .ph-icon svg {
+  width: 34px;
+  height: 34px;
 }
 
 .source-badge {
