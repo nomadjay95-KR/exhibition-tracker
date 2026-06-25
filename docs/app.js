@@ -33,6 +33,19 @@ function statusOf(ev) {
 
 const STATUS_LABEL = { ongoing: "진행중", upcoming: "예정", ended: "종료" };
 
+// 표시 순서: 진행중 → 예정 → 종료.
+// 그룹 내부 — 진행중: 곧 끝나는 순, 예정: 곧 시작하는 순, 종료: 최근 종료 순.
+const STATUS_RANK = { ongoing: 0, upcoming: 1, ended: 2 };
+
+function compareEvents(a, b) {
+  const ra = STATUS_RANK[statusOf(a)];
+  const rb = STATUS_RANK[statusOf(b)];
+  if (ra !== rb) return ra - rb;
+  if (ra === 0) return (a.end_date || "").localeCompare(b.end_date || "");
+  if (ra === 1) return (a.start_date || "").localeCompare(b.start_date || "");
+  return (b.end_date || "").localeCompare(a.end_date || "");
+}
+
 function formatDate(start, end) {
   if (!start) return "";
   if (!end || end === start) return start.replace(/-/g, ".");
@@ -212,7 +225,7 @@ async function init() {
     const resp = await fetch("exhibitions.json", { cache: "no-cache" });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
-    state.events = data.events || [];
+    state.events = (data.events || []).slice().sort(compareEvents);
 
     const updated = document.getElementById("updated");
     if (data.generated_at) {
