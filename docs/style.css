@@ -9,12 +9,31 @@
   --radius: 12px;
   --shadow: 0 1px 3px rgba(15, 15, 15, 0.06), 0 4px 12px rgba(15, 15, 15, 0.04);
   --shadow-hover: 0 4px 16px rgba(15, 15, 15, 0.1), 0 10px 28px rgba(15, 15, 15, 0.08);
+  --toolbar-bg: rgba(247, 247, 245, 0.85);
+  --hover-border: #c7c7c2;
+  --switch-off: #d4d4cf;
 
   /* 출처별 색상 */
   --coex: #d9534f;
   --setec: #4a7fd6;
   --kintex: #2fa572;
   --ddp: #8b5cf6;
+}
+
+/* ---------- 다크모드 팔레트 ---------- */
+[data-theme="dark"] {
+  --bg: #17171a;
+  --surface: #222227;
+  --border: #34343c;
+  --text: #ececee;
+  --text-soft: #a8a8b2;
+  --text-faint: #7c7c86;
+  --accent: #8b5cf6;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.5), 0 10px 28px rgba(0, 0, 0, 0.4);
+  --toolbar-bg: rgba(23, 23, 26, 0.85);
+  --hover-border: #4a4a54;
+  --switch-off: #3a3a42;
 }
 
 * { box-sizing: border-box; }
@@ -31,8 +50,30 @@ body {
 
 /* ---------- 헤더 (보라색 배너) ---------- */
 .site-header {
+  position: relative;
   background: linear-gradient(115deg, #6d28d9 0%, #8b5cf6 55%, #a78bfa 100%);
   color: #fff;
+}
+.theme-toggle {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.08);
 }
 .header-inner {
   max-width: 1180px;
@@ -62,7 +103,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(247, 247, 245, 0.85);
+  background: var(--toolbar-bg);
   backdrop-filter: saturate(180%) blur(12px);
   border-bottom: 1px solid var(--border);
 }
@@ -88,8 +129,8 @@ body {
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 .search-box input:focus {
-  border-color: #c7c7c2;
-  box-shadow: 0 0 0 3px rgba(47, 47, 44, 0.06);
+  border-color: var(--hover-border);
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.12);
 }
 .search-box input::placeholder {
   color: var(--text-soft);
@@ -110,7 +151,7 @@ body {
   transition: all 0.15s;
   white-space: nowrap;
 }
-.chip:hover { border-color: #c7c7c2; color: var(--text); }
+.chip:hover { border-color: var(--hover-border); color: var(--text); }
 .chip[data-active="true"] {
   background: var(--accent);
   border-color: var(--accent);
@@ -151,7 +192,7 @@ body {
   width: 36px;
   height: 21px;
   border-radius: 999px;
-  background: #d4d4cf;
+  background: var(--switch-off);
   cursor: pointer;
   transition: background 0.18s ease;
 }
@@ -231,8 +272,8 @@ main {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg,
-    color-mix(in srgb, var(--ph-color, #cfcfcf) 78%, #ffffff),
-    color-mix(in srgb, var(--ph-color, #cfcfcf) 40%, #ffffff));
+    color-mix(in srgb, var(--ph-color, #cfcfcf) 70%, var(--surface)),
+    color-mix(in srgb, var(--ph-color, #cfcfcf) 35%, var(--surface)));
 }
 .card-cover.placeholder .ph-icon {
   display: flex;

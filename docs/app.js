@@ -196,6 +196,26 @@ function render() {
   gallery.appendChild(frag);
 }
 
+// ---------- 다크모드 ----------
+function setupTheme() {
+  const btn = document.getElementById("theme-toggle");
+  const isDark = () =>
+    document.documentElement.getAttribute("data-theme") === "dark";
+  const apply = (dark) => {
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+    btn.textContent = dark ? "☀️" : "🌙"; // 현재 다크면 해(밝게 전환), 라이트면 달
+    btn.setAttribute("aria-label", dark ? "라이트모드 전환" : "다크모드 전환");
+  };
+  apply(isDark());
+  btn.addEventListener("click", () => {
+    const next = !isDark();
+    apply(next);
+    try {
+      localStorage.setItem("theme", next ? "dark" : "light");
+    } catch (e) {}
+  });
+}
+
 // ---------- 이벤트 바인딩 ----------
 function bindControls() {
   document.getElementById("search").addEventListener("input", (e) => {
@@ -221,6 +241,7 @@ function bindControls() {
 
 // ---------- 초기화 ----------
 async function init() {
+  setupTheme();
   buildSourceFilters();
   bindControls();
 
