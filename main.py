@@ -6,7 +6,8 @@ from crawlers.ddp import fetch_events as fetch_ddp
 from crawlers.kintex import fetch_events as fetch_kintex
 from crawlers.setec import fetch_events as fetch_setec
 from filter import filter_relevant
-from store import save_to_json
+from store import save_to_json, DEFAULT_PATH
+from summarize import enrich_with_summaries
 
 logging.basicConfig(
     level=logging.INFO,
@@ -52,7 +53,13 @@ def main() -> None:
     # 2. 필터링 (참고용 — 관련도는 저장 시 각 이벤트에 자동 태깅됨)
     filtered = filter_relevant(all_events)
 
-    # 3. JSON 저장 (전체 이벤트, 관련도 자동 태깅)
+    # 3. 요약 (기존 결과 캐시 재사용, 신규 행사만 Claude API로 3줄 요약)
+    try:
+        all_events = enrich_with_summaries(all_events, DEFAULT_PATH)
+    except Exception:
+        logger.exception("요약 중 오류 발생 — 요약 없이 계속 진행")
+
+    # 4. JSON 저장 (전체 이벤트, 관련도 자동 태깅)
     try:
         saved = save_to_json(all_events)
     except Exception:

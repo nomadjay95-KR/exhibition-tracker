@@ -329,6 +329,18 @@ function openModal(ev) {
   badges.append(src, status);
 
   document.getElementById("modal-title").textContent = ev.name;
+
+  const summaryEl = document.getElementById("modal-summary");
+  if (Array.isArray(ev.summary) && ev.summary.length) {
+    summaryEl.innerHTML = ev.summary
+      .map((line) => `<li>${escapeHtml(line)}</li>`)
+      .join("");
+    summaryEl.hidden = false;
+  } else {
+    summaryEl.innerHTML = "";
+    summaryEl.hidden = true;
+  }
+
   document.getElementById("modal-meta").innerHTML =
     `<div><dt>기간</dt><dd>${escapeHtml(formatDate(ev.start_date, ev.end_date))}</dd></div>` +
     `<div><dt>장소</dt><dd>${escapeHtml(ev.venue || "-")}</dd></div>` +
