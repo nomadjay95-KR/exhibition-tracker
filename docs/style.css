@@ -38,6 +38,9 @@
 
 * { box-sizing: border-box; }
 
+/* display를 지정한 요소도 hidden 속성으로 확실히 숨김 */
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
@@ -222,9 +225,139 @@ main {
   padding: 24px;
 }
 .result-count {
-  margin: 0 0 16px;
+  margin: 0;
   font-size: 0.85rem;
   color: var(--text-faint);
+}
+
+/* ---------- 뷰 전환 바 ---------- */
+.view-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.view-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+}
+.view-btn {
+  border: none;
+  background: transparent;
+  color: var(--text-soft);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.view-btn:hover { color: var(--text); }
+.view-btn[data-active="true"] {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ---------- 캘린더 ---------- */
+.cal-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.cal-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  min-width: 116px;
+  text-align: center;
+}
+.cal-arrow,
+.cal-today {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 6px 11px;
+  transition: border-color 0.15s;
+}
+.cal-arrow:hover,
+.cal-today:hover { border-color: var(--hover-border); }
+.cal-today { margin-left: 6px; }
+
+.cal-scroll { overflow-x: auto; }
+.cal-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  min-width: 700px;
+  margin-bottom: 6px;
+}
+.cal-weekdays span {
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-faint);
+  padding: 4px 0;
+}
+.cal-weekdays span:first-child { color: #e06b6b; }
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: minmax(98px, auto);
+  gap: 6px;
+  min-width: 700px;
+}
+.cal-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 5px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  overflow: hidden;
+}
+.cal-cell.empty {
+  background: transparent;
+  border-color: transparent;
+}
+.cal-cell.today {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.cal-day {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+.cal-cell.today .cal-day { color: var(--accent); }
+.cal-event {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  padding: 2px 6px;
+  border-radius: 5px;
+  background: var(--ev-color, #888);
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.cal-event:hover { filter: brightness(1.1); }
+.cal-more {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  padding: 0 4px;
 }
 
 /* ---------- 갤러리 그리드 ---------- */

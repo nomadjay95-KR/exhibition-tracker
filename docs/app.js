@@ -8,12 +8,15 @@ const SOURCE_COLORS = {
   DDP: "var(--ddp)",
 };
 
+const _now = new Date();
 const state = {
   events: [],
   search: "",
   sources: new Set(SOURCES), // 활성 출처 (전부 활성=필터 없음)
   status: "all",
   relevantOnly: true, // 기본: 관련 주제만 표시 (스위치로 전체 ↔ 관련 토글)
+  view: "gallery", // "gallery" | "calendar"
+  cal: { year: _now.getFullYear(), month: _now.getMonth() }, // month: 0-11
 };
 
 // 오늘 날짜 (YYYY-MM-DD, 로컬 기준)
@@ -178,22 +181,113 @@ function filtered() {
 
 function render() {
   const list = filtered();
+  document.getElementById("result-count").textContent = `${list.length}개 행사`;
+
   const gallery = document.getElementById("gallery");
   const empty = document.getElementById("empty");
-  const count = document.getElementById("result-count");
+  const calendar = document.getElementById("calendar");
 
+  if (state.view === "calendar") {
+    gallery.hidden = true;
+    empty.hidden = true;
+    calendar.hidden = false;
+    renderCalendar(list);
+  } else {
+    calendar.hidden = true;
+    gallery.hidden = false;
+    renderGallery(list);
+  }
+}
+
+function renderGallery(list) {
+  const gallery = document.getElementById("gallery");
+  const empty = document.getElementById("empty");
   gallery.innerHTML = "";
-  count.textContent = `${list.length}개 행사`;
-
   if (list.length === 0) {
     empty.hidden = false;
     return;
   }
   empty.hidden = true;
-
   const frag = document.createDocumentFragment();
   list.forEach((ev) => frag.appendChild(cardEl(ev)));
   gallery.appendChild(frag);
+}
+
+// ---------- 캘린더 ----------
+function pad2(n) {
+  return String(n).padStart(2, "0");
+}
+
+function shiftMonth(delta) {
+  let { year, month } = state.cal;
+  month += delta;
+  if (month < 0) { month = 11; year -= 1; }
+  if (month > 11) { month = 0; year += 1; }
+  state.cal = { year, month };
+  render();
+}
+
+function renderCalendar(list) {
+  const { year, month } = state.cal;
+  document.getElementById("cal-label").textContent = `${year}년 ${month + 1}월`;
+
+  const grid = document.getElementById("cal-grid");
+  grid.innerHTML = "";
+
+  const startWeekday = new Date(year, month, 1).getDay(); // 0=일
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+  const cells = [];
+  for (let i = 0; i < startWeekday; i++) cells.push(null);
+  for (let d = 1; d <= daysInMonth; d++) cells.push(d);
+  while (cells.length % 7 !== 0) cells.push(null);
+
+  const MAX_PER_DAY = 3;
+  const frag = document.createDocumentFragment();
+
+  cells.forEach((d) => {
+    const cell = document.createElement("div");
+    cell.className = "cal-cell";
+    if (d === null) {
+      cell.classList.add("empty");
+      frag.appendChild(cell);
+      return;
+    }
+    const dateStr = `${year}-${pad2(month + 1)}-${pad2(d)}`;
+    if (dateStr === TODAY) cell.classList.add("today");
+
+    const dayNum = document.createElement("div");
+    dayNum.className = "cal-day";
+    dayNum.textContent = d;
+    cell.appendChild(dayNum);
+
+    // 해당 날짜에 진행 중인 행사 (start <= date <= end)
+    const dayEvents = list.filter(
+      (e) => e.start_date <= dateStr && dateStr <= e.end_date
+    );
+    dayEvents.slice(0, MAX_PER_DAY).forEach((e) => {
+      const chip = document.createElement(e.url ? "a" : "div");
+      chip.className = "cal-event";
+      chip.style.setProperty("--ev-color", colorValue(e.source));
+      chip.textContent = e.name;
+      chip.title = `[${e.source}] ${e.name}`;
+      if (e.url) {
+        chip.href = e.url;
+        chip.target = "_blank";
+        chip.rel = "noopener";
+      }
+      cell.appendChild(chip);
+    });
+    if (dayEvents.length > MAX_PER_DAY) {
+      const more = document.createElement("div");
+      more.className = "cal-more";
+      more.textContent = `+${dayEvents.length - MAX_PER_DAY}개`;
+      cell.appendChild(more);
+    }
+    frag.appendChild(cell);
+  });
+
+  grid.appendChild(frag);
 }
 
 // ---------- 다크모드 ----------
@@ -235,6 +329,26 @@ function bindControls() {
 
   document.getElementById("relevant-only").addEventListener("change", (e) => {
     state.relevantOnly = e.target.checked;
+    render();
+  });
+
+  // 뷰 전환 (갤러리 / 캘린더)
+  document.querySelectorAll(".view-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.view = btn.dataset.view;
+      document.querySelectorAll(".view-btn").forEach((b) => {
+        b.dataset.active = b === btn ? "true" : "false";
+      });
+      render();
+    });
+  });
+
+  // 월 네비게이션
+  document.getElementById("cal-prev").addEventListener("click", () => shiftMonth(-1));
+  document.getElementById("cal-next").addEventListener("click", () => shiftMonth(1));
+  document.getElementById("cal-today").addEventListener("click", () => {
+    const now = new Date();
+    state.cal = { year: now.getFullYear(), month: now.getMonth() };
     render();
   });
 }

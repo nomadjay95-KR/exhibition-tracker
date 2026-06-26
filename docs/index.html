@@ -58,9 +58,31 @@
   </div>
 
   <main>
-    <p class="result-count" id="result-count"></p>
+    <div class="view-bar">
+      <div class="view-switch" id="view-switch">
+        <button class="view-btn" type="button" data-view="gallery" data-active="true">🗂 갤러리</button>
+        <button class="view-btn" type="button" data-view="calendar">📅 캘린더</button>
+      </div>
+      <p class="result-count" id="result-count"></p>
+    </div>
+
     <section class="gallery" id="gallery" aria-live="polite"></section>
     <p class="empty" id="empty" hidden>조건에 맞는 행사가 없습니다.</p>
+
+    <section class="calendar" id="calendar" hidden>
+      <div class="cal-nav">
+        <button class="cal-arrow" id="cal-prev" type="button" aria-label="이전 달">◀</button>
+        <span class="cal-label" id="cal-label"></span>
+        <button class="cal-arrow" id="cal-next" type="button" aria-label="다음 달">▶</button>
+        <button class="cal-today" id="cal-today" type="button">오늘</button>
+      </div>
+      <div class="cal-scroll">
+        <div class="cal-weekdays">
+          <span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span>
+        </div>
+        <div class="cal-grid" id="cal-grid"></div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
