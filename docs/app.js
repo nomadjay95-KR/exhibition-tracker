@@ -233,7 +233,10 @@ async function init() {
     const updated = document.getElementById("updated");
     if (data.generated_at) {
       const dt = new Date(data.generated_at);
-      updated.textContent = `최종 업데이트: ${dt.toLocaleString("ko-KR")} · 총 ${state.events.length}건`;
+      const ampm = dt.getHours() < 12 ? "오전" : "오후";
+      const h12 = dt.getHours() % 12 || 12;
+      updated.textContent =
+        `✨ ${dt.getMonth() + 1}월 ${dt.getDate()}일 ${ampm} ${h12}시 자로 업데이트됐어요!`;
     }
   } catch (err) {
     document.getElementById("result-count").textContent =
