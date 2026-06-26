@@ -13,7 +13,7 @@ const state = {
   search: "",
   sources: new Set(SOURCES), // 활성 출처 (전부 활성=필터 없음)
   status: "all",
-  relevantOnly: false,
+  relevantOnly: true, // 기본: 관련 주제만 표시 (스위치로 전체 ↔ 관련 토글)
 };
 
 // 오늘 날짜 (YYYY-MM-DD, 로컬 기준)
