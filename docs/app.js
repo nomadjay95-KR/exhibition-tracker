@@ -81,9 +81,7 @@ function cardEl(ev) {
   const card = document.createElement("a");
   card.className = "card";
   if (ev.url) {
-    card.href = ev.url;
-    card.target = "_blank";
-    card.rel = "noopener";
+    card.href = ev.url; // 평클릭은 모달, ⌘/Ctrl+클릭은 href로 새 탭
   } else {
     // URL이 없으면 링크 비활성 (클릭 시 맨 위로 튀는 것 방지)
     card.classList.add("no-link");
@@ -131,7 +129,17 @@ function cardEl(ev) {
 
   card.appendChild(cover);
   card.appendChild(body);
+  attachModalOpener(card, ev);
   return card;
+}
+
+// 클릭 시 요약 모달을 띄운다. ⌘/Ctrl/중간 클릭은 기존처럼 새 탭 직접 열기 허용.
+function attachModalOpener(el, ev) {
+  el.addEventListener("click", (e) => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+    e.preventDefault();
+    openModal(ev);
+  });
 }
 
 // 이미지가 없거나 로드 실패한 카드를 절제된 아이콘 플레이스홀더로 채운다.
@@ -273,9 +281,8 @@ function renderCalendar(list) {
       chip.title = `[${e.source}] ${e.name}`;
       if (e.url) {
         chip.href = e.url;
-        chip.target = "_blank";
-        chip.rel = "noopener";
       }
+      attachModalOpener(chip, e);
       cell.appendChild(chip);
     });
     if (dayEvents.length > MAX_PER_DAY) {
@@ -288,6 +295,71 @@ function renderCalendar(list) {
   });
 
   grid.appendChild(frag);
+}
+
+// ---------- 행사 요약 모달 ----------
+function openModal(ev) {
+  const cover = document.getElementById("modal-cover");
+  cover.className = "modal-cover";
+  cover.innerHTML = "";
+  cover.style.removeProperty("--ph-color");
+  if (ev.image_url) {
+    const img = document.createElement("img");
+    img.src = ev.image_url;
+    img.alt = ev.name;
+    img.addEventListener("error", () => {
+      img.remove();
+      fillPlaceholder(cover, ev.source);
+    });
+    cover.appendChild(img);
+  } else {
+    fillPlaceholder(cover, ev.source);
+  }
+
+  const st = statusOf(ev);
+  const badges = document.getElementById("modal-badges");
+  badges.innerHTML = "";
+  const src = document.createElement("span");
+  src.className = "m-badge";
+  src.style.background = colorValue(ev.source);
+  src.textContent = ev.source;
+  const status = document.createElement("span");
+  status.className = "m-badge m-badge--status";
+  status.textContent = STATUS_LABEL[st];
+  badges.append(src, status);
+
+  document.getElementById("modal-title").textContent = ev.name;
+  document.getElementById("modal-meta").innerHTML =
+    `<div><dt>기간</dt><dd>${escapeHtml(formatDate(ev.start_date, ev.end_date))}</dd></div>` +
+    `<div><dt>장소</dt><dd>${escapeHtml(ev.venue || "-")}</dd></div>` +
+    `<div><dt>출처</dt><dd>${escapeHtml(ev.source)}</dd></div>`;
+
+  const cta = document.getElementById("modal-cta");
+  if (ev.url) {
+    cta.href = ev.url;
+    cta.hidden = false;
+  } else {
+    cta.hidden = true;
+  }
+
+  document.getElementById("modal").hidden = false;
+  document.body.style.overflow = "hidden";
+}
+
+function closeModal() {
+  document.getElementById("modal").hidden = true;
+  document.body.style.overflow = "";
+}
+
+function setupModal() {
+  const overlay = document.getElementById("modal");
+  document.getElementById("modal-close").addEventListener("click", closeModal);
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeModal();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !overlay.hidden) closeModal();
+  });
 }
 
 // ---------- 다크모드 ----------
@@ -356,6 +428,7 @@ function bindControls() {
 // ---------- 초기화 ----------
 async function init() {
   setupTheme();
+  setupModal();
   buildSourceFilters();
   bindControls();
 

@@ -89,6 +89,19 @@
     <p>크롤링 데이터 · 출처 사이트의 일정을 자동 수집합니다.</p>
   </footer>
 
+  <div class="modal-overlay" id="modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" type="button" aria-label="닫기">✕</button>
+      <div class="modal-cover" id="modal-cover"></div>
+      <div class="modal-body">
+        <div class="modal-badges" id="modal-badges"></div>
+        <h2 class="modal-title" id="modal-title"></h2>
+        <dl class="modal-meta" id="modal-meta"></dl>
+        <a class="modal-cta" id="modal-cta" target="_blank" rel="noopener">세부 행사 확인하기 →</a>
+      </div>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
