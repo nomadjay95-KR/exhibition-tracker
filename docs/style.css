@@ -177,6 +177,9 @@ main {
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
 }
+.card.no-link {
+  cursor: default;
+}
 
 .card-cover {
   position: relative;

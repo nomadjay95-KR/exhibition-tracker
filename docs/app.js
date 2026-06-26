@@ -77,10 +77,13 @@ function buildSourceFilters() {
 function cardEl(ev) {
   const card = document.createElement("a");
   card.className = "card";
-  card.href = ev.url || "#";
   if (ev.url) {
+    card.href = ev.url;
     card.target = "_blank";
     card.rel = "noopener";
+  } else {
+    // URL이 없으면 링크 비활성 (클릭 시 맨 위로 튀는 것 방지)
+    card.classList.add("no-link");
   }
 
   const st = statusOf(ev);

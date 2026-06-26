@@ -21,7 +21,8 @@ HEADERS = {
 TIMEOUT = 10
 MAX_PAGES = 10
 DATE_PATTERN = re.compile(r"(\d{4}-\d{2}-\d{2})\s*~\s*(\d{4}-\d{2}-\d{2})")
-SIDX_PATTERN = re.compile(r"fn_view\(\s*(\d+)\s*\)")
+# onclick="fn_view('2258')" — 숫자가 따옴표로 감싸진 경우까지 허용
+SIDX_PATTERN = re.compile(r"fn_view\(\s*['\"]?(\d+)['\"]?\s*\)")
 
 
 def _post_with_retry(url: str, data: dict, max_retries: int = 1) -> requests.Response:
