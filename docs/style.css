@@ -90,6 +90,10 @@ body {
   border-color: #c7c7c2;
   box-shadow: 0 0 0 3px rgba(47, 47, 44, 0.06);
 }
+.search-box input::placeholder {
+  color: var(--text-soft);
+  opacity: 1; /* Firefox는 기본적으로 placeholder를 흐리게 처리 */
+}
 
 .filter-group { display: flex; flex-wrap: wrap; gap: 6px; }
 
