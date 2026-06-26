@@ -29,30 +29,31 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ---------- 헤더 ---------- */
+/* ---------- 헤더 (보라색 배너) ---------- */
 .site-header {
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
+  background: linear-gradient(115deg, #6d28d9 0%, #8b5cf6 55%, #a78bfa 100%);
+  color: #fff;
 }
 .header-inner {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 32px 24px 24px;
+  padding: 38px 24px 34px;
 }
 .site-header h1 {
   margin: 0;
-  font-size: 1.65rem;
+  font-size: 1.75rem;
   font-weight: 700;
   letter-spacing: -0.02em;
+  color: #fff;
 }
 .subtitle {
-  margin: 6px 0 0;
-  color: var(--text-soft);
-  font-size: 0.95rem;
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.96rem;
 }
 .updated {
-  margin: 10px 0 0;
-  color: var(--text-faint);
+  margin: 14px 0 0;
+  color: rgba(255, 255, 255, 0.72);
   font-size: 0.8rem;
 }
 
