@@ -1,104 +1,14 @@
 {
-  "generated_at": "2026-09-14T12:58:14+09:00",
-  "count": 120,
+  "generated_at": "2026-09-21T12:56:56+09:00",
+  "count": 113,
   "events": [
     {
       "name": "코엑스 아트 프로젝트_필립콜버트",
       "start_date": "2026-08-31",
       "end_date": "2026-09-30",
       "venue": "아셈광장",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%bd%94%ec%97%91%ec%8a%a4-%ec%95%84%ed%8a%b8-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8_%ed%95%84%eb%a6%bd%ec%bd%9c%eb%b2%84%ed%8a%b8/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%bd%94%ec%97%91%ec%8a%a4-%ec%95%84%ed%8a%b8-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8_%ed%95%84%eb%a6%bd%ec%bd%9c%eb%b2%84%ed%8a%b8/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/COEXartproject_thumbnail.png",
-      "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "2026년 국제방송영상마켓",
-      "start_date": "2026-09-14",
-      "end_date": "2026-09-16",
-      "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/2026%eb%85%84-%ea%b5%ad%ec%a0%9c%eb%b0%a9%ec%86%a1%ec%98%81%ec%83%81%eb%a7%88%ec%bc%93/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
-      "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/COEX-홈페이지용-BCWW-이남규.jpg",
-      "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 경기도교육청 직업계고 취창업박람회",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-16",
-      "venue": "전시홀 6A, 전시홀 6B, 전시홀 6C",
-      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26090801",
-      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469347&fileseq=1",
-      "source": "KINTEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 코리아 이커머스 페어 (2026 KOREA E-Commerce Fair)",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-19",
-      "venue": "제1전시실, 제2전시실, 제3전시실",
-      "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2253",
-      "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3620",
-      "source": "SETEC",
-      "relevant": true
-    },
-    {
-      "name": "2026 에듀테크 페어",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-19",
-      "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%97%90%eb%93%80%ed%85%8c%ed%81%ac-%ed%8e%98%ec%96%b4/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
-      "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/정방형국문-사공.jpg",
-      "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "2027학년도 수시 전문대학 입학정보박람회",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-19",
-      "venue": "The Platz",
-      "url": "https://www.coex.co.kr/exhibitions/2027%ed%95%99%eb%85%84%eb%8f%84-%ec%88%98%ec%8b%9c-%ec%a0%84%eb%ac%b8%eb%8c%80%ed%95%99-%ec%9e%85%ed%95%99%ec%a0%95%eb%b3%b4%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
-      "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/코엑스홈페이지610x610.png",
-      "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 로컬 콘텐츠 페스타",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-20",
-      "venue": "전시홀 4",
-      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26021906",
-      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469246&fileseq=2",
-      "source": "KINTEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 투자 인사이트 포럼",
-      "start_date": "2026-09-19",
-      "end_date": "2026-09-19",
-      "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%88%ac%ec%9e%90-%ec%9d%b8%ec%82%ac%ec%9d%b4%ed%8a%b8-%ed%8f%ac%eb%9f%bc/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
-      "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/33-박상현.png",
-      "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "경기 국제 종합 학술대회 및 치과기자재 전시회(GAMEX 2026)",
-      "start_date": "2026-09-19",
-      "end_date": "2026-09-20",
-      "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%ea%b2%bd%ea%b8%b0-%ea%b5%ad%ec%a0%9c-%ec%a2%85%ed%95%a9-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c-%eb%b0%8f-%ec%b9%98%ea%b3%bc%ea%b8%b0%ec%9e%90%ec%9e%ac-%ec%a0%84%ec%8b%9c%ed%9a%8cgamex-2026/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
-      "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/04/GAMEX2026-국문배너610-박종원.jpg",
-      "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 하반기 해외 유학박람회 / 이민박람회",
-      "start_date": "2026-09-19",
-      "end_date": "2026-09-20",
-      "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%95%98%eb%b0%98%ea%b8%b0-%ed%95%b4%ec%99%b8-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-%ec%9d%b4%eb%af%bc%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
-      "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/국문-유학-박람회-엠블렘.jpg",
       "source": "COEX",
       "relevant": false
     },
@@ -107,7 +17,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-22",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%bd%94%eb%a6%ac%ec%95%84-%eb%9d%bc%ec%9d%b4%ed%94%84%ec%82%ac%ec%9d%b4%ec%96%b8%ec%8a%a4-%ec%9c%84%ed%81%ac-2026/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%bd%94%eb%a6%ac%ec%95%84-%eb%9d%bc%ec%9d%b4%ed%94%84%ec%82%ac%ec%9d%b4%ec%96%b8%ec%8a%a4-%ec%9c%84%ed%81%ac-2026/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/05/2026_610X610pixel-Splendid-tHiNGs-1.jpg",
       "source": "COEX",
       "relevant": false
@@ -117,7 +27,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-22",
       "venue": "컨퍼런스룸(남) 3F",
-      "url": "https://www.coex.co.kr/exhibitions/goipo-%eb%82%98%ec%8a%a4%eb%8b%a5-%ec%84%b8%eb%af%b8%eb%82%98-2026/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/goipo-%eb%82%98%ec%8a%a4%eb%8b%a5-%ec%84%b8%eb%af%b8%eb%82%98-2026/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/GoIPO-2026_Coex-Emblem.png",
       "source": "COEX",
       "relevant": false
@@ -127,7 +37,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-22",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c3%ed%9a%8c-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%82%ac%ed%9a%8c%ec%a0%81%ea%b0%80%ec%b9%98-%ed%8e%98%ec%8a%a4%ed%83%80/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c3%ed%9a%8c-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%82%ac%ed%9a%8c%ec%a0%81%ea%b0%80%ec%b9%98-%ed%8e%98%ec%8a%a4%ed%83%80/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/홈페이지_웹배너_저용량-조정흠.jpg",
       "source": "COEX",
       "relevant": false
@@ -137,17 +47,27 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "venue": "그랜드볼룸",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%b0%b0%ed%84%b0%eb%a6%ac%ec%bd%94%eb%a6%ac%ec%95%84/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%b0%b0%ed%84%b0%eb%a6%ac%ec%bd%94%eb%a6%ac%ec%95%84/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/02/코엑스2026-배터리-코리아_610x610.jpg",
       "source": "COEX",
       "relevant": true
+    },
+    {
+      "name": "Coex On Stage ✖ TNX",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-22",
+      "venue": "밀레니엄 광장",
+      "url": "https://www.coex.co.kr/exhibitions/coex-on-stage-%e2%9c%96-tnx/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
+      "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/스테이지-홈페이지_TNX-1.jpg",
+      "source": "COEX",
+      "relevant": false
     },
     {
       "name": "2026 휴머노이드 서밋 서울",
       "start_date": "2026-09-22",
       "end_date": "2026-09-23",
       "venue": "그랜드볼룸",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%9c%b4%eb%a8%b8%eb%85%b8%ec%9d%b4%eb%93%9c-%ec%84%9c%eb%b0%8b-%ec%84%9c%ec%9a%b8/?var_page=1&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%9c%b4%eb%a8%b8%eb%85%b8%ec%9d%b4%eb%93%9c-%ec%84%9c%eb%b0%8b-%ec%84%9c%ec%9a%b8/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/image.png",
       "source": "COEX",
       "relevant": false
@@ -167,7 +87,7 @@
       "start_date": "2026-09-30",
       "end_date": "2026-10-01",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c12%ed%9a%8c-%ec%a7%91%ec%bd%94%eb%85%b8%eb%af%b8-%eb%b0%95%eb%9e%8c%ed%9a%8c-2026/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c12%ed%9a%8c-%ec%a7%91%ec%bd%94%eb%85%b8%eb%af%b8-%eb%b0%95%eb%9e%8c%ed%9a%8c-2026/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/코엑스-홈페이지-배너_2026-이혜진.jpg",
       "source": "COEX",
       "relevant": false
@@ -177,7 +97,7 @@
       "start_date": "2026-09-30",
       "end_date": "2026-10-02",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c14%ed%9a%8c%ea%b5%ad%ec%a0%9c%ec%b2%a8%eb%8b%a8%ec%86%8c%ec%9e%ac%ec%84%b8%eb%9d%bc%eb%af%b9-%ed%83%84%ec%86%8c-%ec%a0%91%ec%b0%a9%ec%bd%94%ed%8c%85%ed%95%84%eb%a6%84%ea%b8%b0%ec%88%a0/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c14%ed%9a%8c%ea%b5%ad%ec%a0%9c%ec%b2%a8%eb%8b%a8%ec%86%8c%ec%9e%ac%ec%84%b8%eb%9d%bc%eb%af%b9-%ed%83%84%ec%86%8c-%ec%a0%91%ec%b0%a9%ec%bd%94%ed%8c%85%ed%95%84%eb%a6%84%ea%b8%b0%ec%88%a0/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/제14회국제첨단소재기술대전INTRA2026-식탐대마왕.jpg",
       "source": "COEX",
       "relevant": true
@@ -197,7 +117,7 @@
       "start_date": "2026-10-01",
       "end_date": "2026-10-02",
       "venue": "Hall B1",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8f%99%ec%95%84%ec%9e%ac%ed%85%8c%ed%81%ac%ec%87%bc/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8f%99%ec%95%84%ec%9e%ac%ed%85%8c%ed%81%ac%ec%87%bc/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/국문엠블럼-박민영.png",
       "source": "COEX",
       "relevant": false
@@ -227,7 +147,7 @@
       "start_date": "2026-10-03",
       "end_date": "2026-10-04",
       "venue": "컨퍼런스룸(남) 3F",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c-62%ed%9a%8c-%ec%ba%90%eb%82%98%eb%8b%a4-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c-62%ed%9a%8c-%ec%ba%90%eb%82%98%eb%8b%a4-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/62회-박람회-코엑스-행사용-성주유학.jpg",
       "source": "COEX",
       "relevant": false
@@ -257,7 +177,7 @@
       "start_date": "2026-10-06",
       "end_date": "2026-10-08",
       "venue": "Hall A, B",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%8a%a4%eb%a7%88%ed%8a%b8%eb%9d%bc%ec%9d%b4%ed%94%84%ec%9c%84%ed%81%acslw/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%8a%a4%eb%a7%88%ed%8a%b8%eb%9d%bc%ec%9d%b4%ed%94%84%ec%9c%84%ed%81%acslw/?var_page=1&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2024/08/26-slw_키비주얼_최종_바리에이션_610x610.jpg",
       "source": "COEX",
       "relevant": true
@@ -267,7 +187,7 @@
       "start_date": "2026-10-06",
       "end_date": "2026-10-08",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%ed%8e%98%ec%8a%a4%ed%83%80-2026/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%ed%8e%98%ec%8a%a4%ed%83%80-2026/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/05/aifesta26_thumb_A_2-DONGWOOK-KIM.png",
       "source": "COEX",
       "relevant": true
@@ -297,7 +217,7 @@
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/%ed%95%9c%ec%9d%bc%ec%b6%95%ec%a0%9c%ed%95%9c%eb%a7%88%eb%8b%b9-2026-in-seoul/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ed%95%9c%ec%9d%bc%ec%b6%95%ec%a0%9c%ed%95%9c%eb%a7%88%eb%8b%b9-2026-in-seoul/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/한일축제한마당-2026-포스터-kyutae777@naver.com_-scaled.jpg",
       "source": "COEX",
       "relevant": false
@@ -307,7 +227,7 @@
       "start_date": "2026-10-10",
       "end_date": "2026-10-11",
       "venue": "The Platz",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%b8%ea%b3%84%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%b8%ea%b3%84%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/edm세계유학박람회_610x601.png",
       "source": "COEX",
       "relevant": false
@@ -317,7 +237,7 @@
       "start_date": "2026-10-10",
       "end_date": "2026-10-11",
       "venue": "The Platz",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%98%81%ea%b5%ad%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-2/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%98%81%ea%b5%ad%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-2/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/28회-영국유학박람회_610x610.png",
       "source": "COEX",
       "relevant": false
@@ -327,7 +247,7 @@
       "start_date": "2026-10-13",
       "end_date": "2026-10-13",
       "venue": "오디토리움",
-      "url": "https://www.coex.co.kr/exhibitions/impact-2026-rx-revenue-transformation/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/impact-2026-rx-revenue-transformation/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/impact2026-emblem-610.png",
       "source": "COEX",
       "relevant": true
@@ -337,7 +257,7 @@
       "start_date": "2026-10-13",
       "end_date": "2026-10-16",
       "venue": "Hall A, B",
-      "url": "https://www.coex.co.kr/exhibitions/kes-2026%ed%95%9c%ea%b5%ad%ec%a0%84%ec%9e%90%ec%a0%84/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/kes-2026%ed%95%9c%ea%b5%ad%ec%a0%84%ec%9e%90%ec%a0%84/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/KES-2026_COEX.jpg",
       "source": "COEX",
       "relevant": true
@@ -347,19 +267,9 @@
       "start_date": "2026-10-14",
       "end_date": "2026-10-16",
       "venue": "Hall C, D",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c-28%ed%9a%8c-%eb%b0%98%eb%8f%84%ec%b2%b4%eb%8c%80%ec%a0%84/?var_page=2&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c-28%ed%9a%8c-%eb%b0%98%eb%8f%84%ec%b2%b4%eb%8c%80%ec%a0%84/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/SEDEX_배너-김홍기.jpg",
       "source": "COEX",
-      "relevant": true
-    },
-    {
-      "name": "2026 월드 시티테크 엑스포",
-      "start_date": "2026-10-14",
-      "end_date": "2026-10-16",
-      "venue": "전시홀 1",
-      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26062208",
-      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469254&fileseq=3",
-      "source": "KINTEX",
       "relevant": true
     },
     {
@@ -371,6 +281,16 @@
       "image_url": "https://kintex.com/imageView.do?atchmnflNo=469162&fileseq=9",
       "source": "KINTEX",
       "relevant": false
+    },
+    {
+      "name": "2026 월드 시티테크 엑스포",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-16",
+      "venue": "전시홀 1",
+      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26062208",
+      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469254&fileseq=3",
+      "source": "KINTEX",
+      "relevant": true
     },
     {
       "name": "2026 한국건설·안전박람회",
@@ -407,7 +327,7 @@
       "start_date": "2026-10-16",
       "end_date": "2026-10-17",
       "venue": "컨퍼런스룸(남) 4F",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%9c%a0%ed%95%99%eb%84%a4%ed%8a%b8-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-7/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%9c%a0%ed%95%99%eb%84%a4%ed%8a%b8-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-7/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/코엑스-배너.png",
       "source": "COEX",
       "relevant": false
@@ -427,7 +347,7 @@
       "start_date": "2026-10-19",
       "end_date": "2026-10-19",
       "venue": "Hall B1",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%a0%81%ec%8b%ad%ec%9e%90-%eb%b0%94%ec%9e%90/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%a0%81%ec%8b%ad%ec%9e%90-%eb%b0%94%ec%9e%90/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverExhibition.png",
       "source": "COEX",
       "relevant": false
@@ -437,7 +357,7 @@
       "start_date": "2026-10-21",
       "end_date": "2026-10-23",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%b9%9c%ed%99%98%ea%b2%bd%eb%8c%80%ec%a0%84/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%b9%9c%ed%99%98%ea%b2%bd%eb%8c%80%ec%a0%84/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-ESG-친환경대전-키비주얼정방형-2.jpg",
       "source": "COEX",
       "relevant": true
@@ -447,7 +367,7 @@
       "start_date": "2026-10-21",
       "end_date": "2026-10-23",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%99%88%ec%bc%80%ec%96%b4%c2%b7%ec%9e%ac%ed%99%9c%c2%b7%eb%b3%b5%ec%a7%80-%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%99%88%ec%bc%80%ec%96%b4%c2%b7%ec%9e%ac%ed%99%9c%c2%b7%eb%b3%b5%ec%a7%80-%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/Reha.Homecare-2026_엠블럼_COEX_국문-김민지.jpg",
       "source": "COEX",
       "relevant": false
@@ -507,7 +427,7 @@
       "start_date": "2026-10-22",
       "end_date": "2026-10-24",
       "venue": "Hall B1",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c37%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%eb%ac%b8%ea%b5%ac%ec%82%ac%eb%ac%b4%ec%9a%a9%ed%92%88%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c37%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%eb%ac%b8%ea%b5%ac%ec%82%ac%eb%ac%b4%ec%9a%a9%ed%92%88%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=2&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/11/코엑스-2026-엠블럼국문-김영중.jpg",
       "source": "COEX",
       "relevant": false
@@ -517,7 +437,7 @@
       "start_date": "2026-10-22",
       "end_date": "2026-10-24",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%95%98%eb%b0%98%ea%b8%b0-ifs-%ed%94%84%eb%9e%9c%ec%b0%a8%ec%9d%b4%ec%a6%88-%ec%b0%bd%ec%97%85%c2%b7%ec%82%b0%ec%97%85-%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%95%98%eb%b0%98%ea%b8%b0-ifs-%ed%94%84%eb%9e%9c%ec%b0%a8%ec%9d%b4%ec%a6%88-%ec%b0%bd%ec%97%85%c2%b7%ec%82%b0%ec%97%85-%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/IFSA26_COEX-Web-Banner_KOR-DoHyun-Kim.png",
       "source": "COEX",
       "relevant": false
@@ -537,7 +457,7 @@
       "start_date": "2026-10-24",
       "end_date": "2026-10-25",
       "venue": "컨퍼런스룸(남) 3층, 307호",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c51%ed%9a%8c-%ed%98%b8%ec%a3%bc%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c51%ed%9a%8c-%ed%98%b8%ec%a3%bc%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/박람회-게재신청서-이미지_하반기.png",
       "source": "COEX",
       "relevant": false
@@ -557,7 +477,7 @@
       "start_date": "2026-10-28",
       "end_date": "2026-10-30",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%eb%b0%94%ec%9d%b4%ec%98%a4%ed%94%8c%eb%9f%ac%ec%8a%a4-%ec%9d%b8%ed%84%b0%ed%8e%99%ec%8a%a4-%ec%bd%94%eb%a6%ac%ec%95%84-2026-bix2026/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%eb%b0%94%ec%9d%b4%ec%98%a4%ed%94%8c%eb%9f%ac%ec%8a%a4-%ec%9d%b8%ed%84%b0%ed%8e%99%ec%8a%a4-%ec%bd%94%eb%a6%ac%ec%95%84-2026-bix2026/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/04/BIX26_코엑스-웹배너국-Jiyeon-Jo.png",
       "source": "COEX",
       "relevant": true
@@ -567,7 +487,7 @@
       "start_date": "2026-10-28",
       "end_date": "2026-10-30",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/%ed%95%9c%ea%b5%ad%ea%b1%b4%ec%b6%95%ec%82%b0%ec%97%85%eb%8c%80%ec%a0%84-5/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ed%95%9c%ea%b5%ad%ea%b1%b4%ec%b6%95%ec%82%b0%ec%97%85%eb%8c%80%ec%a0%84-5/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/02/EMS배너.jpg",
       "source": "COEX",
       "relevant": false
@@ -577,20 +497,10 @@
       "start_date": "2026-10-28",
       "end_date": "2026-10-30",
       "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%8a%a4%eb%a7%88%ed%8a%b8%ec%97%90%eb%84%88%ec%a7%80%ed%94%8c%eb%9f%ac%ec%8a%a4-2026-2/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%8a%a4%eb%a7%88%ed%8a%b8%ec%97%90%eb%84%88%ec%a7%80%ed%94%8c%eb%9f%ac%ec%8a%a4-2026-2/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/SEP2026_webbanner_KR-homepage.png",
       "source": "COEX",
       "relevant": true
-    },
-    {
-      "name": "2026 솔라 아시아",
-      "start_date": "2026-10-28",
-      "end_date": "2026-10-30",
-      "venue": "전시홀 7",
-      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26051112",
-      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469236&fileseq=1",
-      "source": "KINTEX",
-      "relevant": false
     },
     {
       "name": "금속산업대전 2026",
@@ -627,7 +537,7 @@
       "start_date": "2026-10-29",
       "end_date": "2026-10-29",
       "venue": "컨퍼런스룸(남) 3F",
-      "url": "https://www.coex.co.kr/exhibitions/ai-%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0-%ec%a0%84%eb%a0%a5%c2%b7%eb%83%89%ea%b0%81-%ec%9d%b8%ed%94%84%eb%9d%bc-%ec%b5%9c%ec%a0%81%ed%99%94-%ec%a0%84%eb%9e%b5-%ec%84%b8%eb%af%b8%eb%82%98/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/ai-%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0-%ec%a0%84%eb%a0%a5%c2%b7%eb%83%89%ea%b0%81-%ec%9d%b8%ed%94%84%eb%9d%bc-%ec%b5%9c%ec%a0%81%ed%99%94-%ec%a0%84%eb%9e%b5-%ec%84%b8%eb%af%b8%eb%82%98/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
       "source": "COEX",
       "relevant": true
@@ -637,7 +547,7 @@
       "start_date": "2026-10-29",
       "end_date": "2026-11-01",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%bd%94%eb%b2%a0-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=3&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%bd%94%eb%b2%a0-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/26년10월코엑스111회코베_코엑스행사일정610X610-남궁민.png",
       "source": "COEX",
       "relevant": false
@@ -667,7 +577,7 @@
       "start_date": "2026-11-03",
       "end_date": "2026-11-05",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/aiot-%ea%b5%ad%ec%a0%9c%ec%a0%84%ec%8b%9c%ed%9a%8c-2/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/aiot-%ea%b5%ad%ec%a0%9c%ec%a0%84%ec%8b%9c%ed%9a%8c-2/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/COEX_일정_KR-Eileen-Kim.jpg",
       "source": "COEX",
       "relevant": true
@@ -677,7 +587,7 @@
       "start_date": "2026-11-04",
       "end_date": "2026-11-04",
       "venue": "컨퍼런스룸(남) 3F",
-      "url": "https://www.coex.co.kr/exhibitions/%ea%b5%ad%ea%b0%80%ec%8b%9d%ed%92%88%ed%81%b4%eb%9f%ac%ec%8a%a4%ed%84%b0-%ea%b5%ad%ec%a0%9c%ec%bd%98%ed%8d%bc%eb%9f%b0%ec%8a%a4-%eb%b0%8f-%ea%b3%a0%eb%a0%b9%ec%b9%9c%ed%99%94%ec%8b%9d%ed%92%88/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ea%b5%ad%ea%b0%80%ec%8b%9d%ed%92%88%ed%81%b4%eb%9f%ac%ec%8a%a4%ed%84%b0-%ea%b5%ad%ec%a0%9c%ec%bd%98%ed%8d%bc%eb%9f%b0%ec%8a%a4-%eb%b0%8f-%ea%b3%a0%eb%a0%b9%ec%b9%9c%ed%99%94%ec%8b%9d%ed%92%88/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/식품진흥원_통합형주제포함.jpg",
       "source": "COEX",
       "relevant": false
@@ -687,7 +597,7 @@
       "start_date": "2026-11-04",
       "end_date": "2026-11-07",
       "venue": "Hall A, B, C, The Platz",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%91%b8%eb%93%9c%ec%9c%84%ed%81%ac-%ec%bd%94%eb%a6%ac%ec%95%84%ec%a0%9c21%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%8b%9d%ed%92%88%ec%82%b0%ec%97%85%ec%a0%84/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%91%b8%eb%93%9c%ec%9c%84%ed%81%ac-%ec%bd%94%eb%a6%ac%ec%95%84%ec%a0%9c21%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%8b%9d%ed%92%88%ec%82%b0%ec%97%85%ec%a0%84/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-푸드위크-코리아-썸네일.jpg",
       "source": "COEX",
       "relevant": false
@@ -703,16 +613,6 @@
       "relevant": false
     },
     {
-      "name": "2026 드론·도심항공모빌리티 박람회",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-06",
-      "venue": "전시홀 2",
-      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26030312",
-      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469266&fileseq=1",
-      "source": "KINTEX",
-      "relevant": true
-    },
-    {
       "name": "WORLD HYDROGEN EXPO 2026 (H₂ MEET 2026)",
       "start_date": "2026-11-04",
       "end_date": "2026-11-06",
@@ -721,6 +621,16 @@
       "image_url": "https://kintex.com/imageView.do?atchmnflNo=469276&fileseq=1",
       "source": "KINTEX",
       "relevant": false
+    },
+    {
+      "name": "2026 드론·도심항공모빌리티 박람회",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-06",
+      "venue": "전시홀 2",
+      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26030312",
+      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469266&fileseq=1",
+      "source": "KINTEX",
+      "relevant": true
     },
     {
       "name": "2026 서울건축박람회 (추계)",
@@ -737,7 +647,7 @@
       "start_date": "2026-11-07",
       "end_date": "2026-11-08",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/%eb%8c%80%ed%95%9c%eb%af%b8%ec%9a%a9%ec%84%b1%ed%98%95%eb%a0%88%ec%9d%b4%ec%a0%80%ec%9d%98%ed%95%99%ed%9a%8c-%eb%af%b8%ec%9a%a9%ec%9d%98%eb%a3%8c%ea%b8%b0%ea%b8%b0-%eb%b0%95%eb%9e%8c%ed%9a%8c-3/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%eb%8c%80%ed%95%9c%eb%af%b8%ec%9a%a9%ec%84%b1%ed%98%95%eb%a0%88%ec%9d%b4%ec%a0%80%ec%9d%98%ed%95%99%ed%9a%8c-%eb%af%b8%ec%9a%a9%ec%9d%98%eb%a3%8c%ea%b8%b0%ea%b8%b0-%eb%b0%95%eb%9e%8c%ed%9a%8c-3/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/대한미용성형레이저의학회-asls-korea-쇼-배너-정방형-ASLS-KOREA-사무국.jpg",
       "source": "COEX",
       "relevant": false
@@ -747,7 +657,7 @@
       "start_date": "2026-11-11",
       "end_date": "2026-11-14",
       "venue": "전관",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c25%ed%9a%8c-%ec%84%9c%ec%9a%b8%ec%b9%b4%ed%8e%98%ec%87%bc/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c25%ed%9a%8c-%ec%84%9c%ec%9a%b8%ec%b9%b4%ed%8e%98%ec%87%bc/?var_page=3&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/cafeshow로고out-정방형-World-of-Coffee-Asia.png",
       "source": "COEX",
       "relevant": false
@@ -807,7 +717,7 @@
       "start_date": "2026-11-19",
       "end_date": "2026-11-19",
       "venue": "컨퍼런스룸(남) 4F",
-      "url": "https://www.coex.co.kr/exhibitions/smart-home-interior-2026-%ec%8b%a4%eb%82%b4%ea%b1%b4%ec%b6%95%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ed%8c%a8%eb%9f%ac%eb%8b%a4%ec%9e%84/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/smart-home-interior-2026-%ec%8b%a4%eb%82%b4%ea%b1%b4%ec%b6%95%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ed%8c%a8%eb%9f%ac%eb%8b%a4%ec%9e%84/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
       "source": "COEX",
       "relevant": true
@@ -817,7 +727,7 @@
       "start_date": "2026-11-19",
       "end_date": "2026-11-22",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c58%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%9c%a0%ec%95%84%ea%b5%90%ec%9c%a1%ec%a0%84/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c58%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%9c%a0%ec%95%84%ea%b5%90%ec%9c%a1%ec%a0%84/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/제58회-유교전-세계전람.jpg",
       "source": "COEX",
       "relevant": false
@@ -827,7 +737,7 @@
       "start_date": "2026-11-19",
       "end_date": "2026-11-22",
       "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/%ea%b8%80%eb%a1%9c%eb%b2%8c-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ea%b8%80%eb%a1%9c%eb%b2%8c-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/2026_11_글로벌-베이비페어_포스터_코엑스용610x610px-jerry.jpg",
       "source": "COEX",
       "relevant": false
@@ -837,9 +747,19 @@
       "start_date": "2026-11-20",
       "end_date": "2026-11-22",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%eb%a7%88%ec%9d%b8%eb%93%9c%ec%bc%80%ec%96%b4-%ec%9b%b0%eb%8b%88%ec%8a%a4-%eb%a1%9c%ec%bb%ac%eb%b0%94%ec%9d%b4%eb%b8%8c-%ed%8a%b8%eb%9e%98%eb%b8%94-%ec%87%bc/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%eb%a7%88%ec%9d%b8%eb%93%9c%ec%bc%80%ec%96%b4-%ec%9b%b0%eb%8b%88%ec%8a%a4-%eb%a1%9c%ec%bb%ac%eb%b0%94%ec%9d%b4%eb%b8%8c-%ed%8a%b8%eb%9e%98%eb%b8%94-%ec%87%bc/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/트래블-쇼-2026-앰블럼-임성준.png",
       "source": "COEX",
+      "relevant": false
+    },
+    {
+      "name": "원더리벳 2026",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-22",
+      "venue": "전시홀 10, 전시홀 7, 전시홀 8, 전시홀 9",
+      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26062904",
+      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469351&fileseq=1",
+      "source": "KINTEX",
       "relevant": false
     },
     {
@@ -887,7 +807,7 @@
       "start_date": "2026-11-25",
       "end_date": "2026-11-27",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%86%8c%ec%8b%b1%ec%9d%b8%eb%a7%88%ec%bc%93/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%86%8c%ec%8b%b1%ec%9d%b8%eb%a7%88%ec%bc%93/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/sourcing_visitor.jpg",
       "source": "COEX",
       "relevant": false
@@ -897,7 +817,7 @@
       "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/%eb%94%94%ec%9e%90%ec%9d%b8%ec%bd%94%eb%a6%ac%ec%95%84-2026/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%eb%94%94%ec%9e%90%ec%9d%b8%ec%bd%94%eb%a6%ac%ec%95%84-2026/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/디자인코리아-이미지.jpg",
       "source": "COEX",
       "relevant": false
@@ -907,9 +827,19 @@
       "start_date": "2026-11-26",
       "end_date": "2026-11-29",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%eb%94%94%ec%9e%90%ec%9d%b8%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c/?var_page=4&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%eb%94%94%ec%9e%90%ec%9d%b8%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/02/sdf-로고-2-garam-yun.jpg",
       "source": "COEX",
+      "relevant": false
+    },
+    {
+      "name": "제55회 맘앤베이비엑스포",
+      "start_date": "2026-11-26",
+      "end_date": "2026-11-29",
+      "venue": "전시홀 10",
+      "url": "https://kintex.com/web/ko/event/view.do?eventSeq=26091701",
+      "image_url": "https://kintex.com/imageView.do?atchmnflNo=469353&fileseq=1",
+      "source": "KINTEX",
       "relevant": false
     },
     {
@@ -938,7 +868,7 @@
       "end_date": "2026-11-29",
       "venue": "제3전시실",
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2305",
-      "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3713",
+      "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3742",
       "source": "SETEC",
       "relevant": false
     },
@@ -967,7 +897,7 @@
       "start_date": "2026-12-02",
       "end_date": "2026-12-05",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%eb%b0%9c%eb%aa%85%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%eb%b0%9c%eb%aa%85%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-서울전-배너_국문-610x610-1.jpg",
       "source": "COEX",
       "relevant": false
@@ -977,7 +907,7 @@
       "start_date": "2026-12-02",
       "end_date": "2026-12-05",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad%eb%b0%9c%eb%aa%85%ed%8a%b9%ed%97%88%eb%8c%80%ec%a0%84/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad%eb%b0%9c%eb%aa%85%ed%8a%b9%ed%97%88%eb%8c%80%ec%a0%84/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-서울전-배너_국문-610x610-1.jpg",
       "source": "COEX",
       "relevant": false
@@ -987,7 +917,7 @@
       "start_date": "2026-12-02",
       "end_date": "2026-12-05",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%83%81%ed%91%9c%c2%b7%eb%94%94%ec%9e%90%ec%9d%b8%ea%b6%8c%e5%b1%95/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%83%81%ed%91%9c%c2%b7%eb%94%94%ec%9e%90%ec%9d%b8%ea%b6%8c%e5%b1%95/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-서울전-배너_국문-610x610-1.jpg",
       "source": "COEX",
       "relevant": false
@@ -997,7 +927,7 @@
       "start_date": "2026-12-02",
       "end_date": "2026-12-06",
       "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%9b%94%eb%93%9c-%ec%9b%b9%ed%88%b0-%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ec%9b%94%eb%93%9c-%ec%9b%b9%ed%88%b0-%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverExhibition.png",
       "source": "COEX",
       "relevant": false
@@ -1007,7 +937,7 @@
       "start_date": "2026-12-02",
       "end_date": "2026-12-04",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c11%ed%9a%8c-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%eb%8c%80%ec%a0%84-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%9d%b4%eb%b8%8c-2026/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c11%ed%9a%8c-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%eb%8c%80%ec%a0%84-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%9d%b4%eb%b8%8c-2026/?var_page=4&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverExhibition.png",
       "source": "COEX",
       "relevant": true
@@ -1047,7 +977,7 @@
       "start_date": "2026-12-09",
       "end_date": "2026-12-11",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%bb%b4%ec%97%85-2026/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%bb%b4%ec%97%85-2026/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/KakaoTalk_20260714_171059124-JiHee.jpg",
       "source": "COEX",
       "relevant": false
@@ -1057,7 +987,7 @@
       "start_date": "2026-12-10",
       "end_date": "2026-12-12",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/2026%ed%95%99%eb%85%84%eb%8f%84-%ec%a0%95%ec%8b%9c-%eb%8c%80%ed%95%99%ec%9e%85%ed%95%99%ec%a0%95%eb%b3%b4%eb%b0%95%eb%9e%8c%ed%9a%8c-2/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026%ed%95%99%eb%85%84%eb%8f%84-%ec%a0%95%ec%8b%9c-%eb%8c%80%ed%95%99%ec%9e%85%ed%95%99%ec%a0%95%eb%b3%b4%eb%b0%95%eb%9e%8c%ed%9a%8c-2/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/웹배너2026-02-1.jpg",
       "source": "COEX",
       "relevant": false
@@ -1077,7 +1007,7 @@
       "start_date": "2026-12-11",
       "end_date": "2026-12-13",
       "venue": "Hall D",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%95%9c%ea%b5%ad%ea%b5%ad%ec%a0%9c%ec%b9%98%ea%b3%bc%ec%9d%98%eb%a3%8c%ea%b8%b0%ea%b8%b0-%ec%a0%84%ec%8b%9c%ed%9a%8c-%eb%b0%8f-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%95%9c%ea%b5%ad%ea%b5%ad%ec%a0%9c%ec%b9%98%ea%b3%bc%ec%9d%98%eb%a3%8c%ea%b8%b0%ea%b8%b0-%ec%a0%84%ec%8b%9c%ed%9a%8c-%eb%b0%8f-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/kdx-로고_V2-1-EXACTLY-25CM.png",
       "source": "COEX",
       "relevant": false
@@ -1097,7 +1027,7 @@
       "start_date": "2026-12-17",
       "end_date": "2026-12-20",
       "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/2026-k-%ed%95%b8%eb%93%9c%eb%a9%94%ec%9d%b4%eb%93%9c%ed%8e%98%ec%96%b4/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-k-%ed%95%b8%eb%93%9c%eb%a9%94%ec%9d%b4%eb%93%9c%ed%8e%98%ec%96%b4/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/K-핸드메이드페어-2026-엠블렘국문-최슬기.jpg",
       "source": "COEX",
       "relevant": false
@@ -1107,7 +1037,7 @@
       "start_date": "2026-12-17",
       "end_date": "2026-12-20",
       "venue": "Hall C, D",
-      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%99%88%ed%85%8c%ec%9d%b4%eb%b8%94%eb%8d%b0%ec%bd%94%ed%8e%98%ec%96%b4/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026-%ed%99%88%ed%85%8c%ec%9d%b4%eb%b8%94%eb%8d%b0%ec%bd%94%ed%8e%98%ec%96%b4/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/HT_포스터_2026_정사각형.png",
       "source": "COEX",
       "relevant": false
@@ -1147,7 +1077,7 @@
       "start_date": "2026-12-22",
       "end_date": "2026-12-24",
       "venue": "Hall B",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%84%a4%eb%a7%9e%ec%9d%b4-%eb%aa%85%ec%a0%88%ec%84%a0%eb%ac%bc%ec%a0%84-4/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%84%a4%eb%a7%9e%ec%9d%b4-%eb%aa%85%ec%a0%88%ec%84%a0%eb%ac%bc%ec%a0%84-4/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/코엑스-포스터설맞이.jpg",
       "source": "COEX",
       "relevant": false
@@ -1157,7 +1087,7 @@
       "start_date": "2026-12-23",
       "end_date": "2026-12-27",
       "venue": "Hall A",
-      "url": "https://www.coex.co.kr/exhibitions/2026%ec%84%9c%ec%9a%b8%ec%95%84%ed%8a%b8%ec%87%bc/?var_page=5&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/2026%ec%84%9c%ec%9a%b8%ec%95%84%ed%8a%b8%ec%87%bc/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/서울아트쇼_정사각형-SEOUL-ART-SHOW.jpg",
       "source": "COEX",
       "relevant": false
@@ -1167,7 +1097,7 @@
       "start_date": "2026-12-24",
       "end_date": "2026-12-27",
       "venue": "Hall C",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%84%9c%ec%9a%b8%ec%9d%bc%eb%9f%ac%ec%8a%a4%ed%8a%b8%eb%a0%88%ec%9d%b4%ec%84%a0%ed%8e%98%ec%96%b4v-22/?var_page=6&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%84%9c%ec%9a%b8%ec%9d%bc%eb%9f%ac%ec%8a%a4%ed%8a%b8%eb%a0%88%ec%9d%b4%ec%84%a0%ed%8e%98%ec%96%b4v-22/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverExhibition.png",
       "source": "COEX",
       "relevant": false
@@ -1177,8 +1107,8 @@
       "start_date": "2026-12-24",
       "end_date": "2026-12-27",
       "venue": "The Platz",
-      "url": "https://www.coex.co.kr/exhibitions/%ec%97%85%eb%9d%bc%ec%9d%b4%ec%a7%95-%ed%8e%98%ec%8a%a4%ed%83%80-vol-2/?var_page=6&search_start_date=2026.09.14&search_end_date=2026.12.31&list_type=LIST",
-      "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/05/업라이징2-포스터-2.png",
+      "url": "https://www.coex.co.kr/exhibitions/%ec%97%85%eb%9d%bc%ec%9d%b4%ec%a7%95-%ed%8e%98%ec%8a%a4%ed%83%80-vol-2/?var_page=5&search_start_date=2026.09.21&search_end_date=2026.12.31&list_type=LIST",
+      "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/05/코엑스-포스터.png",
       "source": "COEX",
       "relevant": false
     },
