@@ -13,6 +13,8 @@ const state = {
   events: [],
   search: "",
   sources: new Set(SOURCES), // 활성 출처 (전부 활성=필터 없음)
+  topicList: [], // exhibitions.json의 topics 목록 (칩 순서)
+  topics: new Set(), // 활성 주제 (전부 활성=필터 없음)
   status: "all",
   relevantOnly: true, // 기본: 관련 주제만 표시 (스위치로 전체 ↔ 관련 토글)
   view: "gallery", // "gallery" | "calendar"
@@ -56,6 +58,20 @@ function formatDate(start, end) {
 }
 
 // ---------- 렌더링 ----------
+// 칩 다중 선택 규칙: 전부 켜진 상태에서 하나를 누르면 "이것만", 이후 클릭은 추가/제외,
+// 마지막 하나를 끄면 전체 표시로 복귀.
+function toggleChoice(set, item, all) {
+  if (set.size === all.length) {
+    set.clear();
+    set.add(item);
+  } else if (set.has(item)) {
+    set.delete(item);
+    if (set.size === 0) all.forEach((x) => set.add(x));
+  } else {
+    set.add(item);
+  }
+}
+
 function buildSourceFilters() {
   const wrap = document.getElementById("source-filters");
   SOURCES.forEach((src) => {
@@ -66,11 +82,36 @@ function buildSourceFilters() {
     btn.style.setProperty("--chip-color", SOURCE_COLORS[src]);
     btn.innerHTML = `<span class="dot"></span>${src}`;
     btn.addEventListener("click", () => {
-      if (state.sources.has(src)) state.sources.delete(src);
-      else state.sources.add(src);
-      // 전부 비활성으로 만들면 전체 표시로 복귀
-      if (state.sources.size === 0) SOURCES.forEach((s) => state.sources.add(s));
-      btn.dataset.active = state.sources.has(src) ? "true" : "false";
+      toggleChoice(state.sources, src, SOURCES);
+      wrap.querySelectorAll(".chip").forEach((b) => {
+        b.dataset.active = state.sources.has(b.dataset.source) ? "true" : "false";
+      });
+      render();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+// 주제 칩 — 출처 칩과 같은 다중 선택 방식. 목록은 exhibitions.json의 topics에서 온다.
+function buildTopicFilters(topicList) {
+  const wrap = document.getElementById("topic-filters");
+  state.topicList = topicList;
+  state.topics = new Set(topicList);
+  wrap.innerHTML = "";
+  wrap.hidden = topicList.length === 0;
+
+  topicList.forEach((topic) => {
+    const btn = document.createElement("button");
+    btn.className = "chip";
+    btn.type = "button";
+    btn.dataset.topic = topic;
+    btn.dataset.active = "true";
+    btn.textContent = topic;
+    btn.addEventListener("click", () => {
+      toggleChoice(state.topics, topic, topicList);
+      wrap.querySelectorAll(".chip").forEach((b) => {
+        b.dataset.active = state.topics.has(b.dataset.topic) ? "true" : "false";
+      });
       render();
     });
     wrap.appendChild(btn);
@@ -178,6 +219,11 @@ function filtered() {
   return state.events.filter((ev) => {
     if (!state.sources.has(ev.source)) return false;
     if (state.relevantOnly && !ev.relevant) return false;
+    // 주제가 일부만 선택된 경우: 선택 주제와 하나라도 겹쳐야 통과
+    if (state.topics.size < state.topicList.length) {
+      const evTopics = Array.isArray(ev.topics) ? ev.topics : [];
+      if (!evTopics.some((t) => state.topics.has(t))) return false;
+    }
     if (state.status !== "all" && statusOf(ev) !== state.status) return false;
     if (q) {
       const hay = (ev.name + " " + (ev.venue || "")).toLowerCase();
@@ -344,7 +390,10 @@ function openModal(ev) {
   document.getElementById("modal-meta").innerHTML =
     `<div><dt>기간</dt><dd>${escapeHtml(formatDate(ev.start_date, ev.end_date))}</dd></div>` +
     `<div><dt>장소</dt><dd>${escapeHtml(ev.venue || "-")}</dd></div>` +
-    `<div><dt>출처</dt><dd>${escapeHtml(ev.source)}</dd></div>`;
+    `<div><dt>출처</dt><dd>${escapeHtml(ev.source)}</dd></div>` +
+    (Array.isArray(ev.topics) && ev.topics.length
+      ? `<div><dt>주제</dt><dd>${escapeHtml(ev.topics.join(" · "))}</dd></div>`
+      : "");
 
   const cta = document.getElementById("modal-cta");
   if (ev.url) {
@@ -449,6 +498,7 @@ async function init() {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     state.events = (data.events || []).slice().sort(compareEvents);
+    buildTopicFilters(Array.isArray(data.topics) ? data.topics : []);
 
     const updated = document.getElementById("updated");
     if (data.generated_at) {

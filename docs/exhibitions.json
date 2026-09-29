@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-29T13:58:06+09:00",
-  "count": 194,
+  "generated_at": "2026-09-29T14:23:04+09:00",
+  "count": 195,
+  "topics": [
+    "리테일/유통",
+    "식품/F&B",
+    "패션/뷰티",
+    "리빙/건축/인테리어",
+    "AI/IT/로보틱스",
+    "디자인/문화/예술",
+    "키즈/베이비/교육",
+    "라이프스타일/레저",
+    "기타"
+  ],
   "events": [
     {
       "name": "서울라이트 DDP : 새해맞이 카운트다운",
@@ -10,7 +21,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=739&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20251212111253109.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "이간수문",
@@ -20,7 +34,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=80&boardno=21&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260220114356663.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "매거진 라이브러리",
@@ -30,7 +47,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=79&boardno=21&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260220095326228.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "동대문운동장기념관",
@@ -40,7 +60,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=49&boardno=21&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260202033642475.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "동대문역사관",
@@ -50,7 +73,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=50&boardno=21&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260202033923098.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "Dream in Light",
@@ -60,7 +86,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=751&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260420030655082.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "Dream in Light (BTS MUSIC LIGHT)",
@@ -70,7 +99,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=721&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260320113939989.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "영화 <휴민트> 개봉 기념 특별 기획전",
@@ -80,7 +112,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=590&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260119113022260.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 협력전시 <2026 VIDAK, 디총 31주년 기념 [K_Culture]: 신진작가 국제 초대전>",
@@ -90,7 +125,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=591&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260119115243732.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 F/W 서울패션위크",
@@ -100,7 +138,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=740&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260206055502054.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "<울트라백화점 서울 Vol.2> 포스트 서브컬쳐",
@@ -110,7 +151,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=592&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260211052413093.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "2026 KBS Kids 배틀 토너먼트",
@@ -120,7 +164,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=741&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260213103613070.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "BtheB 뷰티기획전 <Beauty For All>",
@@ -130,7 +177,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=593&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260309045534850.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티",
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "서울AI페스티벌 2026",
@@ -140,7 +191,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=742&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260225113215295.jpg",
       "source": "DDP",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "서울러닝엑스포 Seoul Running Expo",
@@ -150,7 +204,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=744&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260310014701475.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "Purple Lounge",
@@ -160,7 +217,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=746&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260318024404847.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "DDP 건축투어 2026",
@@ -170,7 +230,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=11&boardno=145&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260316043558800.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "2026 소상공인 힘보탬 박람회",
@@ -180,7 +243,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=747&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260324100838850.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "PSID 2026 국제섬유패션 전시회",
@@ -190,7 +256,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=745&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260311053439372.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "OFF COURSE CLUB",
@@ -200,7 +269,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=594&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260407041343457.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "DDP Design Play 4월 디자인마켓",
@@ -210,7 +282,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=748&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260326032300012.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통",
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "BTS THE CITY ARIRANG SEOUL - ARMY ‘MADANG’",
@@ -220,7 +296,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=749&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260408064744873.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "이상한 K-뷰티 : 엄마의 서랍장",
@@ -230,7 +309,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=600&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260420060715195.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "루돌프 쉰들러 (1887-1953): 건축사유전",
@@ -240,7 +322,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=596&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260407041955952.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "키크니 특별전 : 그렸고 그런 사이",
@@ -250,7 +335,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=595&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260427013044245.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 쇼룸 체험형 팝업 <베베핀 드림랜드>",
@@ -260,7 +348,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=601&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260424033126901.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "2026 DDP 어린이 디자인 페스티벌",
@@ -270,7 +361,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=750&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260415041534284.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술",
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "김영준 x 요시다 유니 기획전 <Face to face>",
@@ -280,7 +375,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=599&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260513053751591.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 제28회 서울드럼페스티벌",
@@ -290,7 +388,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=752&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260511025904197.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 협력전시 《AuraDot: The Smart Jewelry & Watch AI Human Exhibition》 (아우라닷: 더 스마트주얼리 앤 워치 AI 휴먼전)",
@@ -300,7 +401,12 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=603&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260528023136614.jpg",
       "source": "DDP",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "패션/뷰티",
+        "AI/IT/로보틱스",
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "Dream in Light 6월",
@@ -310,7 +416,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=753&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260605052411099.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "[Hermès] MYSTERY AT THE GROOMS'",
@@ -320,7 +429,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=604&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260601041853745.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "DDP 협력전시  한불수교 140주년 기념, 서울-파리 국제교류전 《The Baguette from Seoul》",
@@ -330,7 +442,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=605&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260615012907494.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "BtheB 뷰티기획전<BEAUTY, TRANSLATED>",
@@ -340,7 +455,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=606&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260623055749241.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티",
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "<모집> 2026 6월 DDP 오픈스테이지",
@@ -350,7 +469,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=754&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260626020236514.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "아기상어 비밀 초대장: 비커밍 샤크",
@@ -360,7 +482,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=602&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260713044425218.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "<모집> 7월 시민 댄스 나이트",
@@ -370,7 +495,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=756&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260629112002720.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "7월 스타 버스킹 나이트",
@@ -380,7 +508,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=755&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260629110539583.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "기술이 사람을 만날 때: 연결은 마음을 향한다(When Tech Meet People: Connection Finds Heart)",
@@ -390,7 +521,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=607&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260626025816094.jpg",
       "source": "DDP",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "퀀텀 코리아 2026",
@@ -400,7 +534,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=759&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260630071112692.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "Dream in Light",
@@ -410,7 +547,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=765&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260731114454437.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 상생마켓: 서울패션허브 SUMMER MARKET",
@@ -420,7 +560,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=757&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260629042231918.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통",
+        "패션/뷰티"
+      ]
     },
     {
       "name": "DDP 상생마켓: 썸머 바캉스 마켓",
@@ -430,7 +574,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=758&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260630042946477.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "DDP 협력전시 <한·영 패션 퓨쳐스: 잇다. 입다.>",
@@ -440,7 +587,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=608&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260722023714530.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티",
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "UNFRAMED PURENESS: 테디베어와 현대미술이 잇는 공익 기부전",
@@ -450,7 +601,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=611&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260728103726312.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 바캉스: 뮤직페스티벌",
@@ -460,7 +614,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=760&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260722052618164.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "LALARECIPE x MeME : Happiness Recipe for Every Skin",
@@ -470,7 +627,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=612&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260826093327591.jpg",
       "source": "DDP",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "<모집> 8월 스타 버스킹 나이트",
@@ -480,7 +640,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=763&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260730051226250.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 DDP SHOWROOM <SUMMER VIBE>",
@@ -490,7 +653,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=766&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260731053954941.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "<모집> 8월 시민 댄스 나이트",
@@ -500,7 +666,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=764&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260730060021912.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 한복상점",
@@ -510,7 +679,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=762&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260728051827440.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통",
+        "패션/뷰티"
+      ]
     },
     {
       "name": "[얼리버드 티켓] 2026 DDP디자인페어",
@@ -520,7 +693,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=781&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260918104215471.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 DDP 디자인 북페어",
@@ -530,7 +706,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=769&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260818042530421.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 상생마켓: 로컬 푸드 마켓",
@@ -540,7 +719,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=767&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260803055008559.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통",
+        "식품/F&B"
+      ]
     },
     {
       "name": "2026 서울뷰티위크",
@@ -550,17 +733,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=771&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260824045232620.jpg",
       "source": "DDP",
-      "relevant": false
-    },
-    {
-      "name": "디자인마이애미 서울 2026",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-06",
-      "venue": "DDP 기타",
-      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=609&boardno=15&act=view",
-      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260901062647338.jpg",
-      "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "코엑스 아트 프로젝트_필립콜버트",
@@ -570,7 +746,23 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%bd%94%ec%97%91%ec%8a%a4-%ec%95%84%ed%8a%b8-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8_%ed%95%84%eb%a6%bd%ec%bd%9c%eb%b2%84%ed%8a%b8/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/COEXartproject_thumbnail.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
+    },
+    {
+      "name": "디자인마이애미 서울 2026",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-06",
+      "venue": "DDP 기타",
+      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=609&boardno=15&act=view",
+      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260901062647338.jpg",
+      "source": "DDP",
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "<모집> 9월 스타 버스킹 나이트-밴드편",
@@ -580,7 +772,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=773&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260901104444647.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 버스킹 9월 아티스트 모집",
@@ -590,7 +785,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=31&boardno=147&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260804101612309.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 버스킹 9월 공연 일정 안내",
@@ -600,7 +798,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=32&boardno=147&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260824110447549.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2027 S/S 서울패션위크",
@@ -610,7 +811,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=776&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260903030521598.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "<모집> DDP 상생마켓: 어린이 경제 마켓",
@@ -620,7 +824,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=774&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260901112129382.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통",
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "서울라이트 DDP 2026 가을",
@@ -630,7 +838,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=761&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260902023240069.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 루프탑투어 2026",
@@ -640,7 +851,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=14&boardno=145&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260814044615622.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "DDP 협력전시 <SPECTRUM>",
@@ -650,7 +864,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=613&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260826111746747.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "설텍 2026 (SEOUL TEX&TECH 2026)",
@@ -660,7 +877,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=777&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260907113636798.jpg",
       "source": "DDP",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "패션/뷰티",
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "[10.15.(목)] 서울디자인위크 컨퍼런스: 새로운 영감의 원천, 서울",
@@ -670,7 +891,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=779&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260911052552348.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 상생마켓: 서울패션허브 FALL MARKET",
@@ -680,7 +904,11 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=775&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260902040244015.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통",
+        "패션/뷰티"
+      ]
     },
     {
       "name": "Seoul Life: Heritage Reimagined, Soban 展",
@@ -690,7 +918,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=614&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260909043623686.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 서울디자인국제포럼",
@@ -700,7 +931,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=772&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260828045508576.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "[10.18.(일)] 서울디자인위크 컨퍼런스: 세계가 주목하는 디자인 재료",
@@ -710,7 +944,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=780&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260917110548313.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "현대카드 컬처프로젝트 31 웨인 티보 전 <The Order of Things>",
@@ -720,7 +957,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=610&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260921021658401.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 메이커페어 서울",
@@ -730,7 +970,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=778&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260911023605823.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "DDP 365라이트",
@@ -740,7 +983,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=783&boardno=16&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260921042749365.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "한국의 색: COLOR OF KOREA",
@@ -750,7 +996,10 @@
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=615&boardno=15&act=view",
       "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260923012755709.jpg",
       "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "강남 디지털 DNA 페스티벌",
@@ -760,7 +1009,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2267",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3736",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "제12회 집코노미 박람회 2026",
@@ -770,7 +1022,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c12%ed%9a%8c-%ec%a7%91%ec%bd%94%eb%85%b8%eb%af%b8-%eb%b0%95%eb%9e%8c%ed%9a%8c-2026/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/코엑스-홈페이지-배너_2026-이혜진.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "제14회국제첨단소재(세라믹, 탄소, 접착코팅필름)기술대전",
@@ -780,7 +1035,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c14%ed%9a%8c%ea%b5%ad%ec%a0%9c%ec%b2%a8%eb%8b%a8%ec%86%8c%ec%9e%ac%ec%84%b8%eb%9d%bc%eb%af%b9-%ed%83%84%ec%86%8c-%ec%a0%91%ec%b0%a9%ec%bd%94%ed%8c%85%ed%95%84%eb%a6%84%ea%b8%b0%ec%88%a0/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/제14회국제첨단소재기술대전INTRA2026-식탐대마왕.jpg",
       "source": "COEX",
-      "relevant": true
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 산학연협력 EXPO",
@@ -790,27 +1048,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26072901",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469328&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
-    },
-    {
-      "name": "DDP 버스킹 10월 공연 일정 안내",
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-31",
-      "venue": "DDP 기타",
-      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=35&boardno=147&act=view",
-      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260928095238894.jpg",
-      "source": "DDP",
-      "relevant": false
-    },
-    {
-      "name": "<모집> DDP 버스킹 10월 아티스트 모집",
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-31",
-      "venue": "DDP 어울림 광장",
-      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=34&boardno=147&act=view",
-      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260901103812886.jpg",
-      "source": "DDP",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 동아재테크쇼",
@@ -820,7 +1061,36 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8f%99%ec%95%84%ec%9e%ac%ed%85%8c%ed%81%ac%ec%87%bc/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/국문엠블럼-박민영.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
+    },
+    {
+      "name": "DDP 버스킹 10월 공연 일정 안내",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "venue": "DDP 기타",
+      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=35&boardno=147&act=view",
+      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260928095238894.jpg",
+      "source": "DDP",
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
+    },
+    {
+      "name": "<모집> DDP 버스킹 10월 아티스트 모집",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "venue": "DDP 어울림 광장",
+      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=34&boardno=147&act=view",
+      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260901103812886.jpg",
+      "source": "DDP",
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "서울머니쇼 스페셜 에디션: 김승호의 투자전망",
@@ -830,7 +1100,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%84%9c%ec%9a%b8%eb%a8%b8%eb%8b%88%ec%87%bc-%ec%8a%a4%ed%8e%98%ec%85%9c-%ec%97%90%eb%94%94%ec%85%98-%ea%b9%80%ec%8a%b9%ed%98%b8%ec%9d%98-%ed%88%ac%ec%9e%90%ec%a0%84%eb%a7%9d/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/서울머니쇼-스페셜-에디션_홈페이지.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "아트 팝: 경기",
@@ -840,7 +1113,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26080601",
       "image_url": "https://www.kintex.com/public/common/images/tmp/thum_384x480_1.png",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "디. 페스타",
@@ -850,7 +1126,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2314",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3727",
       "source": "SETEC",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "제 62회 캐나다 유학박람회",
@@ -860,7 +1139,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c-62%ed%9a%8c-%ec%ba%90%eb%82%98%eb%8b%a4-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/62회-박람회-코엑스-행사용-성주유학.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "제430회 웨덱스 웨딩박람회",
@@ -870,7 +1152,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c430%ed%9a%8c-%ec%9b%a8%eb%8d%b1%ec%8a%a4-%ec%9b%a8%eb%94%a9%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/2026-웨딩박람회_엠블럼_2.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "레이니 내한공연",
@@ -880,7 +1165,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26051917",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469308&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "[서울] 2026 씨야 20주년 전국 투어 콘서트 : THE FAN",
@@ -890,7 +1178,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26071001",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469330&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "스마트라이프위크(SLW)",
@@ -900,7 +1191,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%8a%a4%eb%a7%88%ed%8a%b8%eb%9d%bc%ec%9d%b4%ed%94%84%ec%9c%84%ed%81%acslw/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2024/08/26-slw_키비주얼_최종_바리에이션_610x610.jpg",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "인공지능 페스타 2026",
@@ -910,7 +1204,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%ed%8e%98%ec%8a%a4%ed%83%80-2026/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/05/aifesta26_thumb_A_2-DONGWOOK-KIM.png",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "2026 코베 베이비페어&유아교육전",
@@ -920,7 +1217,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26033004",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469129&fileseq=6",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "2026 국제아웃도어캠핑&레포츠페스티벌 더 파이널 시즌 PART 1",
@@ -930,17 +1230,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26032304",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469174&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
-    },
-    {
-      "name": "DDP 상생마켓: 어린이 경제 마켓",
-      "start_date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "venue": "DDP",
-      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=785&boardno=16&act=view",
-      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260928105430237.jpg",
-      "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "한일축제한마당 2026 in Seoul",
@@ -950,7 +1243,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ed%95%9c%ec%9d%bc%ec%b6%95%ec%a0%9c%ed%95%9c%eb%a7%88%eb%8b%b9-2026-in-seoul/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/한일축제한마당-2026-포스터-kyutae777@naver.com_-scaled.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "2026 세계유학박람회",
@@ -960,7 +1256,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%b8%ea%b3%84%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/edm세계유학박람회_610x601.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "영국유학박람회",
@@ -970,7 +1269,24 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%98%81%ea%b5%ad%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-2/?var_page=1&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/28회-영국유학박람회_610x610.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
+    },
+    {
+      "name": "DDP 상생마켓: 어린이 경제 마켓",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "venue": "DDP",
+      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=785&boardno=16&act=view",
+      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260928105430237.jpg",
+      "source": "DDP",
+      "relevant": true,
+      "topics": [
+        "리테일/유통",
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "IMPACT 2026 - RX: REVENUE TRANSFORMATION",
@@ -980,7 +1296,10 @@
       "url": "https://www.coex.co.kr/exhibitions/impact-2026-rx-revenue-transformation/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/impact2026-emblem-610.png",
       "source": "COEX",
-      "relevant": true
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "KES 2026(한국전자전)",
@@ -990,27 +1309,10 @@
       "url": "https://www.coex.co.kr/exhibitions/kes-2026%ed%95%9c%ea%b5%ad%ec%a0%84%ec%9e%90%ec%a0%84/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/KES-2026_COEX.jpg",
       "source": "COEX",
-      "relevant": true
-    },
-    {
-      "name": "서울디자인콘퍼런스 2026 Think Make Change",
-      "start_date": "2026-10-14",
-      "end_date": "2026-10-14",
-      "venue": "DDP 기타",
-      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=782&boardno=16&act=view",
-      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260918020645594.jpg",
-      "source": "DDP",
-      "relevant": false
-    },
-    {
-      "name": "서울디자인어워드 2026 시상식",
-      "start_date": "2026-10-14",
-      "end_date": "2026-10-14",
-      "venue": "DDP",
-      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=784&boardno=16&act=view",
-      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260923074219882.jpg",
-      "source": "DDP",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "제 28회 반도체대전",
@@ -1020,7 +1322,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c-28%ed%9a%8c-%eb%b0%98%eb%8f%84%ec%b2%b4%eb%8c%80%ec%a0%84/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/SEDEX_배너-김홍기.jpg",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "대한비뇨의학회 제78차 정기학술대회",
@@ -1030,17 +1335,36 @@
       "url": "https://www.coex.co.kr/exhibitions/%eb%8c%80%ed%95%9c%eb%b9%84%eb%87%a8%ec%9d%98%ed%95%99%ed%9a%8c-%ec%a0%9c78%ec%b0%a8-%ec%a0%95%ea%b8%b0%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
-      "name": "2026 도시안전기술박람회",
+      "name": "서울디자인콘퍼런스 2026 Think Make Change",
       "start_date": "2026-10-14",
-      "end_date": "2026-10-16",
-      "venue": "전시홀 1",
-      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26042903",
-      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469162&fileseq=9",
-      "source": "KINTEX",
-      "relevant": false
+      "end_date": "2026-10-14",
+      "venue": "DDP 기타",
+      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=782&boardno=16&act=view",
+      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260918020645594.jpg",
+      "source": "DDP",
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
+    },
+    {
+      "name": "서울디자인어워드 2026 시상식",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "venue": "DDP",
+      "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=784&boardno=16&act=view",
+      "image_url": "https://ddp.or.kr/usr/upload/board_thumb/zboardphotogallery0/20260923074219882.jpg",
+      "source": "DDP",
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 월드 시티테크 엑스포",
@@ -1050,7 +1374,23 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26062208",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469254&fileseq=3",
       "source": "KINTEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
+    },
+    {
+      "name": "2026 도시안전기술박람회",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-16",
+      "venue": "전시홀 1",
+      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26042903",
+      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469162&fileseq=9",
+      "source": "KINTEX",
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 한국건설·안전박람회",
@@ -1060,7 +1400,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26042904",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469163&fileseq=2",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "뱅크아트페어 Plus",
@@ -1070,7 +1413,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2317",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3730",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 K-뷰티엑스포 코리아",
@@ -1080,7 +1426,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26030306",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469277&fileseq=2",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "유학네트 유학박람회",
@@ -1090,7 +1439,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%9c%a0%ed%95%99%eb%84%a4%ed%8a%b8-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-7/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/코엑스-배너.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "제57회 호주&뉴질랜드 유학박람회",
@@ -1100,7 +1452,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c57%ed%9a%8c-%ed%98%b8%ec%a3%bc%eb%89%b4%ec%a7%88%eb%9e%9c%eb%93%9c-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/대학_대학원.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "NOL 페스티벌",
@@ -1110,7 +1465,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26010503",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469310&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 적십자 바자",
@@ -1120,7 +1478,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ec%a0%81%ec%8b%ad%ec%9e%90-%eb%b0%94%ec%9e%90/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverExhibition.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "프로메가 Discover Glo 2026",
@@ -1130,7 +1491,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ed%94%84%eb%a1%9c%eb%a9%94%ea%b0%80-discover-glo-2026/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/Untitled-June-26-2026-at-11.50.17-2-1.jpeg",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 대한민국 친환경대전",
@@ -1140,7 +1504,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%b9%9c%ed%99%98%ea%b2%bd%eb%8c%80%ec%a0%84/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-ESG-친환경대전-키비주얼정방형-2.jpg",
       "source": "COEX",
-      "relevant": true
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 홈케어·재활·복지 전시회",
@@ -1150,27 +1517,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ed%99%88%ec%bc%80%ec%96%b4%c2%b7%ec%9e%ac%ed%99%9c%c2%b7%eb%b3%b5%ec%a7%80-%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/Reha.Homecare-2026_엠블럼_COEX_국문-김민지.jpg",
       "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 TEX+VISION",
-      "start_date": "2026-10-21",
-      "end_date": "2026-10-23",
-      "venue": "전시홀 10",
-      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26031015",
-      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469060&fileseq=1",
-      "source": "KINTEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 국제 청소위생·건물관리·공동주택관리산업전",
-      "start_date": "2026-10-21",
-      "end_date": "2026-10-23",
-      "venue": "전시홀 10B-1",
-      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26081005",
-      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469342&fileseq=3",
-      "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "국제 모빌리티 산업전",
@@ -1180,7 +1530,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26070208",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469283&fileseq=1",
       "source": "KINTEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "2026 산업AI 엑스포",
@@ -1190,7 +1543,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26062907",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469348&fileseq=3",
       "source": "KINTEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "2026 아시아 기계 & 제조 산업전",
@@ -1200,7 +1556,36 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26062905",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469285&fileseq=1",
       "source": "KINTEX",
-      "relevant": true
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
+    },
+    {
+      "name": "2026 국제 청소위생·건물관리·공동주택관리산업전",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-23",
+      "venue": "전시홀 10B-1",
+      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26081005",
+      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469342&fileseq=3",
+      "source": "KINTEX",
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
+    },
+    {
+      "name": "2026 TEX+VISION",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-23",
+      "venue": "전시홀 10",
+      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26031015",
+      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469060&fileseq=1",
+      "source": "KINTEX",
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "제37회 서울국제문구사무용품전시회",
@@ -1210,7 +1595,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c37%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%eb%ac%b8%ea%b5%ac%ec%82%ac%eb%ac%b4%ec%9a%a9%ed%92%88%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/11/코엑스-2026-엠블럼국문-김영중.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "2026 하반기 IFS 프랜차이즈 창업·산업 박람회",
@@ -1220,7 +1608,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ed%95%98%eb%b0%98%ea%b8%b0-ifs-%ed%94%84%eb%9e%9c%ec%b0%a8%ec%9d%b4%ec%a6%88-%ec%b0%bd%ec%97%85%c2%b7%ec%82%b0%ec%97%85-%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=2&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/IFSA26_COEX-Web-Banner_KOR-DoHyun-Kim.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "서울네일엑스포",
@@ -1230,7 +1621,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2318",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3731",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "2026 오토살롱테크코리아",
@@ -1240,7 +1634,11 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26080617",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469360&fileseq=2",
       "source": "KINTEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스",
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "제51회 호주유학박람회",
@@ -1250,7 +1648,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c51%ed%9a%8c-%ed%98%b8%ec%a3%bc%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/박람회-게재신청서-이미지_하반기.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "2026 국제 공구 및 스마트 용접 자동화전",
@@ -1260,7 +1661,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26042905",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469207&fileseq=1",
       "source": "KINTEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "바이오플러스-인터펙스 코리아 2026 (BIX2026)",
@@ -1270,7 +1674,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%eb%b0%94%ec%9d%b4%ec%98%a4%ed%94%8c%eb%9f%ac%ec%8a%a4-%ec%9d%b8%ed%84%b0%ed%8e%99%ec%8a%a4-%ec%bd%94%eb%a6%ac%ec%95%84-2026-bix2026/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/04/BIX26_코엑스-웹배너국-Jiyeon-Jo.png",
       "source": "COEX",
-      "relevant": true
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "한국건축산업대전",
@@ -1280,7 +1687,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ed%95%9c%ea%b5%ad%ea%b1%b4%ec%b6%95%ec%82%b0%ec%97%85%eb%8c%80%ec%a0%84-5/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/02/EMS배너.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "스마트에너지플러스 2026",
@@ -1290,7 +1700,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%8a%a4%eb%a7%88%ed%8a%b8%ec%97%90%eb%84%88%ec%a7%80%ed%94%8c%eb%9f%ac%ec%8a%a4-2026-2/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/SEP2026_webbanner_KR-homepage.png",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "금속산업대전 2026",
@@ -1300,7 +1713,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26071004",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469291&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 코리아 러닝엑스포",
@@ -1310,7 +1726,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2319",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3732",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "2026 코리아 러닝 엑스포",
@@ -1320,7 +1739,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2259",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3659",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "AI 데이터센터 전력·냉각 인프라 최적화 전략 세미나",
@@ -1330,7 +1752,10 @@
       "url": "https://www.coex.co.kr/exhibitions/ai-%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0-%ec%a0%84%eb%a0%a5%c2%b7%eb%83%89%ea%b0%81-%ec%9d%b8%ed%94%84%eb%9d%bc-%ec%b5%9c%ec%a0%81%ed%99%94-%ec%a0%84%eb%9e%b5-%ec%84%b8%eb%af%b8%eb%82%98/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "2026 코베 베이비페어",
@@ -1340,7 +1765,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ec%bd%94%eb%b2%a0-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/26년10월코엑스111회코베_코엑스행사일정610X610-남궁민.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "2026 마이프차 프랜차이즈 박람회 시즌 2",
@@ -1350,7 +1778,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26060405",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469315&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "2026 카페&베이커리페어 시즌2",
@@ -1360,7 +1791,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26060404",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469247&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "식품/F&B"
+      ]
     },
     {
       "name": "IDP 세계유학박람회",
@@ -1370,7 +1804,10 @@
       "url": "https://www.coex.co.kr/exhibitions/idp-%ec%84%b8%ea%b3%84%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-6/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/202610_세유박_코엑스전시_610x610.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "AIoT 국제전시회",
@@ -1380,7 +1817,10 @@
       "url": "https://www.coex.co.kr/exhibitions/aiot-%ea%b5%ad%ec%a0%9c%ec%a0%84%ec%8b%9c%ed%9a%8c-2/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/COEX_일정_KR-Eileen-Kim.jpg",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "국가식품클러스터 국제콘퍼런스 및 고령친화식품산업 심포지엄",
@@ -1390,7 +1830,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ea%b5%ad%ea%b0%80%ec%8b%9d%ed%92%88%ed%81%b4%eb%9f%ac%ec%8a%a4%ed%84%b0-%ea%b5%ad%ec%a0%9c%ec%bd%98%ed%8d%bc%eb%9f%b0%ec%8a%a4-%eb%b0%8f-%ea%b3%a0%eb%a0%b9%ec%b9%9c%ed%99%94%ec%8b%9d%ed%92%88/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/식품진흥원_통합형주제포함.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "식품/F&B"
+      ]
     },
     {
       "name": "2026 푸드위크 코리아(제21회 서울국제식품산업전)",
@@ -1400,27 +1843,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ed%91%b8%eb%93%9c%ec%9c%84%ed%81%ac-%ec%bd%94%eb%a6%ac%ec%95%84%ec%a0%9c21%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%8b%9d%ed%92%88%ec%82%b0%ec%97%85%ec%a0%84/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-푸드위크-코리아-썸네일.jpg",
       "source": "COEX",
-      "relevant": false
-    },
-    {
-      "name": "WORLD HYDROGEN EXPO 2026 (H₂ MEET 2026)",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-06",
-      "venue": "전시홀 6C, 전시홀 7, 전시홀 8",
-      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26040310",
-      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469276&fileseq=1",
-      "source": "KINTEX",
-      "relevant": false
-    },
-    {
-      "name": "2026 드론·도심항공모빌리티 박람회",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-06",
-      "venue": "전시홀 2",
-      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26030312",
-      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469266&fileseq=1",
-      "source": "KINTEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "식품/F&B"
+      ]
     },
     {
       "name": "2026 K-Geo Festa",
@@ -1430,7 +1856,36 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26082702",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469345&fileseq=2",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
+    },
+    {
+      "name": "WORLD HYDROGEN EXPO 2026 (H₂ MEET 2026)",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-06",
+      "venue": "전시홀 6C, 전시홀 7, 전시홀 8",
+      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26040310",
+      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469276&fileseq=1",
+      "source": "KINTEX",
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
+    },
+    {
+      "name": "2026 드론·도심항공모빌리티 박람회",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-06",
+      "venue": "전시홀 2",
+      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26030312",
+      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469266&fileseq=1",
+      "source": "KINTEX",
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "2026 서울건축박람회 (추계)",
@@ -1440,7 +1895,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2255",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3622",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "대한미용성형레이저의학회 미용의료기기 박람회 및 추계 학술대회 2026",
@@ -1450,7 +1908,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%eb%8c%80%ed%95%9c%eb%af%b8%ec%9a%a9%ec%84%b1%ed%98%95%eb%a0%88%ec%9d%b4%ec%a0%80%ec%9d%98%ed%95%99%ed%9a%8c-%eb%af%b8%ec%9a%a9%ec%9d%98%eb%a3%8c%ea%b8%b0%ea%b8%b0-%eb%b0%95%eb%9e%8c%ed%9a%8c-3/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/대한미용성형레이저의학회-asls-korea-쇼-배너-정방형-ASLS-KOREA-사무국.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티"
+      ]
     },
     {
       "name": "제25회 서울카페쇼",
@@ -1460,7 +1921,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c25%ed%9a%8c-%ec%84%9c%ec%9a%b8%ec%b9%b4%ed%8e%98%ec%87%bc/?var_page=3&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/cafeshow로고out-정방형-World-of-Coffee-Asia.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "식품/F&B"
+      ]
     },
     {
       "name": "한국국제승강기엑스포  2026",
@@ -1470,7 +1934,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26060202",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469240&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "제85회 프랜차이즈창업박람회 2026 SETEC",
@@ -1480,7 +1947,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2310",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3740",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "메가푸드쇼 2026",
@@ -1490,7 +1960,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26052707",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469305&fileseq=2",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "식품/F&B"
+      ]
     },
     {
       "name": "메가쇼 & 트래블쇼 2026 시즌 2",
@@ -1500,7 +1973,23 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26052706",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469298&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
+    },
+    {
+      "name": "서울카드페스타",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "venue": "전시홀 6A",
+      "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26060108",
+      "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469364&fileseq=1",
+      "source": "KINTEX",
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "서울 글로벌 잡 페어(가칭) * 舊 2025 외국인 취업 채용 박람회",
@@ -1510,7 +1999,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2252",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3618",
       "source": "SETEC",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "SMART HOME INTERIOR 2026: 실내건축의 새로운 패러다임",
@@ -1520,7 +2012,11 @@
       "url": "https://www.coex.co.kr/exhibitions/smart-home-interior-2026-%ec%8b%a4%eb%82%b4%ea%b1%b4%ec%b6%95%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ed%8c%a8%eb%9f%ac%eb%8b%a4%ec%9e%84/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어",
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "제58회 서울국제유아교육전",
@@ -1530,7 +2026,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c58%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%9c%a0%ec%95%84%ea%b5%90%ec%9c%a1%ec%a0%84/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/제58회-유교전-세계전람.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "글로벌 베이비페어",
@@ -1540,7 +2039,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ea%b8%80%eb%a1%9c%eb%b2%8c-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/2026_11_글로벌-베이비페어_포스터_코엑스용610x610px-jerry.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "2026 트래블 쇼",
@@ -1550,7 +2052,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%eb%a7%88%ec%9d%b8%eb%93%9c%ec%bc%80%ec%96%b4-%ec%9b%b0%eb%8b%88%ec%8a%a4-%eb%a1%9c%ec%bb%ac%eb%b0%94%ec%9d%b4%eb%b8%8c-%ed%8a%b8%eb%9e%98%eb%b8%94-%ec%87%bc/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/트래블-쇼-2026-앰블럼-임성준.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "원더리벳 2026",
@@ -1560,7 +2065,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26062904",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469351&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 메가주 일산 시즌2",
@@ -1570,7 +2078,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26042204",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469186&fileseq=2",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 보드게임페스타",
@@ -1580,7 +2091,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2311",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3724",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "캐스크 카니발 2026",
@@ -1590,7 +2104,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2273",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3741",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "식품/F&B"
+      ]
     },
     {
       "name": "제55회 필리핀유학박람회",
@@ -1600,7 +2117,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c55%ed%9a%8c-%ed%95%84%eb%a6%ac%ed%95%80%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/09/0코엑스-행사일정배너.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "서울시 미용예술경연대회",
@@ -1610,7 +2130,11 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2315",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3728",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "패션/뷰티",
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "소싱인마켓",
@@ -1620,7 +2144,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%86%8c%ec%8b%b1%ec%9d%b8%eb%a7%88%ec%bc%93/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/sourcing_visitor.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "디자인코리아 2026",
@@ -1630,7 +2157,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%eb%94%94%ec%9e%90%ec%9d%b8%ec%bd%94%eb%a6%ac%ec%95%84-2026/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/디자인코리아-이미지.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 서울디자인페스티벌",
@@ -1640,7 +2170,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%eb%94%94%ec%9e%90%ec%9d%b8%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/02/sdf-로고-2-garam-yun.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "제55회 맘앤베이비엑스포",
@@ -1650,7 +2183,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26091701",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469353&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "2027 대한민국 재테크박람회",
@@ -1660,7 +2196,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2256",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3623",
       "source": "SETEC",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 국제아웃도어캠핑&레포츠페스티벌 더 파이널 시즌 PART 2",
@@ -1670,7 +2209,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26043007",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469177&fileseq=2",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "38회 플래툰 컨벤션",
@@ -1680,7 +2222,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2305",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3742",
       "source": "SETEC",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "솜프리마켓",
@@ -1690,7 +2235,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2313",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3726",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "스트릿 주짓수 챔피언쉽 서울 오픈",
@@ -1700,7 +2248,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2312",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3725",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "2026 서울국제발명전시회",
@@ -1710,7 +2261,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%eb%b0%9c%eb%aa%85%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-서울전-배너_국문-610x610-1.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 대한민국발명특허대전",
@@ -1720,7 +2274,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad%eb%b0%9c%eb%aa%85%ed%8a%b9%ed%97%88%eb%8c%80%ec%a0%84/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-서울전-배너_국문-610x610-1.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 상표·디자인권展",
@@ -1730,7 +2287,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ec%83%81%ed%91%9c%c2%b7%eb%94%94%ec%9e%90%ec%9d%b8%ea%b6%8c%e5%b1%95/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/2026-서울전-배너_국문-610x610-1.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 월드 웹툰 페스티벌",
@@ -1740,7 +2300,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ec%9b%94%eb%93%9c-%ec%9b%b9%ed%88%b0-%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c/?var_page=4&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverExhibition.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "제11회 대한민국 소프트웨어 대전, 소프트웨이브 2026",
@@ -1750,7 +2313,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c11%ed%9a%8c-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%eb%8c%80%ec%a0%84-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%9d%b4%eb%b8%8c-2026/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverExhibition.png",
       "source": "COEX",
-      "relevant": true
+      "relevant": true,
+      "topics": [
+        "AI/IT/로보틱스"
+      ]
     },
     {
       "name": "궁디팡팡 캣페스타",
@@ -1760,7 +2326,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2307",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3720",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "Anime X Game Festival 2026",
@@ -1770,7 +2339,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26042205",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469267&fileseq=2",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "새해 준비상점 N.27",
@@ -1780,7 +2352,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26082806",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469336&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "컴업 2026",
@@ -1790,7 +2365,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%bb%b4%ec%97%85-2026/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/KakaoTalk_20260714_171059124-JiHee.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "크리스마스 서울펫쇼",
@@ -1800,7 +2378,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2308",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3721",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "2027학년도 정시 대학입학정보박람회",
@@ -1810,7 +2391,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026%ed%95%99%eb%85%84%eb%8f%84-%ec%a0%95%ec%8b%9c-%eb%8c%80%ed%95%99%ec%9e%85%ed%95%99%ec%a0%95%eb%b3%b4%eb%b0%95%eb%9e%8c%ed%9a%8c-2/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/웹배너2026-02-1.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "키즈/베이비/교육"
+      ]
     },
     {
       "name": "2026 한국국제치과의료기기 전시회 및 학술대회",
@@ -1820,7 +2404,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ed%95%9c%ea%b5%ad%ea%b5%ad%ec%a0%9c%ec%b9%98%ea%b3%bc%ec%9d%98%eb%a3%8c%ea%b8%b0%ea%b8%b0-%ec%a0%84%ec%8b%9c%ed%9a%8c-%eb%b0%8f-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/kdx-로고_V2-1-EXACTLY-25CM.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "2026 티& 크래프트 페어(하)",
@@ -1830,7 +2417,11 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2294",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3700",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "식품/F&B",
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 K-핸드메이드페어",
@@ -1840,7 +2431,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-k-%ed%95%b8%eb%93%9c%eb%a9%94%ec%9d%b4%eb%93%9c%ed%8e%98%ec%96%b4/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/K-핸드메이드페어-2026-엠블렘국문-최슬기.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "2026 홈테이블데코페어",
@@ -1850,7 +2444,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026-%ed%99%88%ed%85%8c%ec%9d%b4%eb%b8%94%eb%8d%b0%ec%bd%94%ed%8e%98%ec%96%b4/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/HT_포스터_2026_정사각형.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "Beaver Rocks 인디게임 & 컬처 페스티벌",
@@ -1860,7 +2457,11 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2264",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3631",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술",
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "문구전 2026 겨울",
@@ -1870,7 +2471,10 @@
       "url": "https://www.kintex.com/web/ko/event/view.do?eventSeq=26080613",
       "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469331&fileseq=1",
       "source": "KINTEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "라이프스타일/레저"
+      ]
     },
     {
       "name": "2026년 소상공인박람회",
@@ -1880,7 +2484,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2309",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3722",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "설맞이 명절선물전",
@@ -1890,7 +2497,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%84%a4%eb%a7%9e%ec%9d%b4-%eb%aa%85%ec%a0%88%ec%84%a0%eb%ac%bc%ec%a0%84-4/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/코엑스-포스터설맞이.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     },
     {
       "name": "2026서울아트쇼",
@@ -1900,7 +2510,10 @@
       "url": "https://www.coex.co.kr/exhibitions/2026%ec%84%9c%ec%9a%b8%ec%95%84%ed%8a%b8%ec%87%bc/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/서울아트쇼_정사각형-SEOUL-ART-SHOW.jpg",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "서울일러스트레이션페어V.22",
@@ -1910,7 +2523,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%84%9c%ec%9a%b8%ec%9d%bc%eb%9f%ac%ec%8a%a4%ed%8a%b8%eb%a0%88%ec%9d%b4%ec%84%a0%ed%8e%98%ec%96%b4v-22/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/SIFV.22_웹배너-오씨메이커스.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "디자인/문화/예술"
+      ]
     },
     {
       "name": "업라이징 페스타 Vol.2",
@@ -1920,7 +2536,10 @@
       "url": "https://www.coex.co.kr/exhibitions/%ec%97%85%eb%9d%bc%ec%9d%b4%ec%a7%95-%ed%8e%98%ec%8a%a4%ed%83%80-vol-2/?var_page=5&search_start_date=2026.09.29&search_end_date=2026.12.31&list_type=LIST",
       "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/05/코엑스-포스터.png",
       "source": "COEX",
-      "relevant": false
+      "relevant": false,
+      "topics": [
+        "기타"
+      ]
     },
     {
       "name": "제2회 서울 가구·인테리어 박람회",
@@ -1930,7 +2549,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2297",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3703",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리빙/건축/인테리어"
+      ]
     },
     {
       "name": "2027 구정 명절 선물 박람회",
@@ -1940,7 +2562,10 @@
       "url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2296",
       "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3702",
       "source": "SETEC",
-      "relevant": false
+      "relevant": true,
+      "topics": [
+        "리테일/유통"
+      ]
     }
   ]
 }

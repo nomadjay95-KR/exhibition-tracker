@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import List
 
-from filter import is_relevant
+from filter import ALL_TOPICS, is_relevant, topics_of
 
 logger = logging.getLogger(__name__)
 
@@ -32,7 +32,8 @@ def save_to_json(events: List[dict], path: Path = DEFAULT_PATH) -> int:
     """행사 목록을 JSON 파일로 저장한다.
 
     - 중복 제거 후 시작일 오름차순 정렬
-    - 각 이벤트에 filter.is_relevant() 결과를 relevant 필드로 부여
+    - 각 이벤트에 filter.is_relevant() 결과를 relevant 필드로, 매칭 주제를 topics 필드로 부여
+    - 최상위 topics 목록(칩 표시 순서)을 포함
     - generated_at(KST) 타임스탬프 포함
 
     Returns:
@@ -43,11 +44,13 @@ def save_to_json(events: List[dict], path: Path = DEFAULT_PATH) -> int:
 
     for e in unique:
         e["relevant"] = is_relevant(e)
+        e["topics"] = topics_of(e)
         e.setdefault("image_url", "")
 
     payload = {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "count": len(unique),
+        "topics": ALL_TOPICS,
         "events": unique,
     }
 
