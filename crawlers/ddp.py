@@ -3,8 +3,10 @@
 import html
 import logging
 import re
+from pathlib import Path
 from typing import List
 
+import certifi
 import requests
 
 logger = logging.getLogger(__name__)
@@ -24,6 +26,25 @@ HEADERS = {
 }
 TIMEOUT = 15
 MAX_PAGES = 20
+
+# ddp.or.kr 서버가 중간 인증서(RapidSSL TLS RSA CA G1)를 보내지 않아 기본 검증이 실패한다.
+# certifi 번들 + 저장된 중간 인증서를 합친 CA 파일로 검증한다 (verify=False 대신).
+_CERT_DIR = Path(__file__).parent / "certs"
+_INTERMEDIATE_PEM = _CERT_DIR / "rapidssl_tls_rsa_ca_g1.pem"
+_BUNDLE_PEM = _CERT_DIR / "ddp_ca_bundle.pem"
+
+
+def ca_bundle() -> str:
+    """certifi 기본 번들에 DDP 중간 인증서를 덧붙인 CA 파일 경로를 반환한다.
+
+    합친 파일이 없거나 원본보다 오래됐으면 다시 생성한다.
+    """
+    sources = [Path(certifi.where()), _INTERMEDIATE_PEM]
+    if not _BUNDLE_PEM.exists() or any(
+        src.stat().st_mtime > _BUNDLE_PEM.stat().st_mtime for src in sources
+    ):
+        _BUNDLE_PEM.write_bytes(b"\n".join(src.read_bytes() for src in sources))
+    return str(_BUNDLE_PEM)
 
 # ztag: base64-encoded Java serialized string for board config
 ZTAG = (
@@ -89,6 +110,7 @@ def fetch_events() -> List[dict]:
     try:
         session = requests.Session()
         session.headers.update(HEADERS)
+        session.verify = ca_bundle()
 
         # 세션 쿠키(JSESSIONID) 획득을 위해 메인 페이지 방문
         session.get(f"{BASE_URL}/?menuno=239", timeout=TIMEOUT)

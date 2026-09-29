@@ -14,6 +14,8 @@ from typing import List
 import requests
 from bs4 import BeautifulSoup
 
+from crawlers.ddp import BASE_URL as DDP_ORIGIN, ca_bundle as ddp_ca_bundle
+
 logger = logging.getLogger(__name__)
 
 MODEL = "claude-haiku-4-5"  # 3줄 요약엔 충분하고 대량 반복에 비용 효율적
@@ -76,7 +78,9 @@ def _fetch_detail_text(url: str) -> str:
     if not url:
         return ""
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        # ddp.or.kr는 중간 인증서를 보내지 않아 크롤러와 같은 CA 번들로 검증한다
+        verify = ddp_ca_bundle() if url.startswith(DDP_ORIGIN) else True
+        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=verify)
         resp.raise_for_status()
     except requests.RequestException:
         return ""

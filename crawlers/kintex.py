@@ -2,6 +2,7 @@
 
 import logging
 import re
+import time
 from datetime import datetime
 from typing import List
 from urllib.parse import urljoin
@@ -11,9 +12,10 @@ from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
-BASE_URL = "https://kintex.com/web/ko/event/list.do"
-DETAIL_URL = "https://kintex.com/web/ko/event/view.do"
-SITE_ORIGIN = "https://kintex.com"
+# kintex.com은 www로 301 리다이렉트되므로 www를 직접 호출해 연결 횟수를 줄인다.
+SITE_ORIGIN = "https://www.kintex.com"
+BASE_URL = f"{SITE_ORIGIN}/web/ko/event/list.do"
+DETAIL_URL = f"{SITE_ORIGIN}/web/ko/event/view.do"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -21,14 +23,16 @@ HEADERS = {
         "Chrome/131.0.0.0 Safari/537.36"
     ),
 }
-TIMEOUT = 10
+# GitHub Actions 러너에서 kintex.com 연결이 간헐적으로 10초 넘게 걸려 (connect, read)로 분리
+TIMEOUT = (20, 30)
 MAX_PAGES = 10
+BACKOFF_BASE = 2  # 재시도 대기: 2, 4, 8초
 DATE_PATTERN = re.compile(r"(\d{4}\.\d{2}\.\d{2})~(\d{4}\.\d{2}\.\d{2})")
 SEQ_PATTERN = re.compile(r"fnView\([^,]+,\s*(\d+)\)")
 
 
-def _request_with_retry(url: str, params: dict, max_retries: int = 1) -> requests.Response:
-    """GET 요청. 실패 시 max_retries만큼 재시도."""
+def _request_with_retry(url: str, params: dict, max_retries: int = 3) -> requests.Response:
+    """GET 요청. 실패 시 max_retries만큼 지수 백오프로 재시도."""
     for attempt in range(max_retries + 1):
         try:
             resp = requests.get(url, params=params, headers=HEADERS, timeout=TIMEOUT)
@@ -36,7 +40,10 @@ def _request_with_retry(url: str, params: dict, max_retries: int = 1) -> request
             return resp
         except requests.RequestException as e:
             if attempt < max_retries:
-                logger.warning("요청 실패 (시도 %d/%d): %s", attempt + 1, max_retries + 1, e)
+                wait = BACKOFF_BASE ** (attempt + 1)
+                logger.warning("요청 실패 (시도 %d/%d), %d초 후 재시도: %s",
+                               attempt + 1, max_retries + 1, wait, e)
+                time.sleep(wait)
                 continue
             raise
 

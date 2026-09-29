@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .gstack/
 .vercel
+crawlers/certs/ddp_ca_bundle.pem
