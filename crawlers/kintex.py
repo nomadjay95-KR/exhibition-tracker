@@ -71,7 +71,15 @@ def fetch_events() -> List[dict]:
                 "searchStartDt": today.strftime("%Y.%m.%d"),
                 "searchEndDt": end.strftime("%Y.%m.%d"),
             }
-            resp = _request_with_retry(BASE_URL, params)
+            try:
+                resp = _request_with_retry(BASE_URL, params)
+            except requests.RequestException:
+                # 러너 환경에서 연결이 간헐적으로 끊김 → 이미 수집한 페이지는 살린다
+                logger.exception(
+                    "KINTEX %d페이지 요청 실패 — %d건까지만 반환 (이전 데이터와 병합됨)",
+                    page, len(events),
+                )
+                break
             soup = BeautifulSoup(resp.text, "html.parser")
 
             # fnView 호출이 포함된 <a> 태그가 이벤트 카드
@@ -131,8 +139,7 @@ def fetch_events() -> List[dict]:
                     continue
 
     except Exception:
-        logger.exception("KINTEX 크롤링 실패")
-        return []
+        logger.exception("KINTEX 크롤링 실패 — %d건까지만 반환", len(events))
 
     # 중복 제거
     seen = set()

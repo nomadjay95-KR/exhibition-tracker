@@ -55,24 +55,28 @@ def _load_previous_events(path: Path) -> list[dict]:
         return []
 
 
-def _with_fallback(results: dict[str, list[dict]], previous_path: Path) -> list[dict]:
-    """0건인 출처는 이전 결과에서 아직 끝나지 않은 행사를 재사용해 합친다.
+def _merge_with_previous(results: dict[str, list[dict]], previous_path: Path) -> list[dict]:
+    """이번 수집 결과에 이전 결과의 미종료 행사를 출처별로 합친다 (중복은 store가 제거).
 
-    사이트 접속 장애(타임아웃, 인증서 오류 등)로 한 출처가 통째로 사라지는 것을 막는다.
+    - 크롤러가 중간에 실패해 일부 페이지만 수집했거나 0건이어도 출처가 사이트에서 사라지지 않는다.
+    - 목록이 '오늘 이후 시작' 기준인 사이트(COEX·KINTEX)에서 이미 시작한 진행중 행사도 유지된다.
+    - 이전 행사는 end_date가 지나면 자연히 빠진다.
     """
     today = date.today().isoformat()
     previous = _load_previous_events(previous_path)
     merged: list[dict] = []
 
     for name, events in results.items():
-        if events:
-            merged.extend(events)
-            continue
+        new_keys = {(e.get("name"), e.get("start_date"), e.get("end_date")) for e in events}
         kept = [
             e for e in previous
-            if e.get("source") == name and e.get("end_date", "") >= today
+            if e.get("source") == name
+            and e.get("end_date", "") >= today
+            and (e.get("name"), e.get("start_date"), e.get("end_date")) not in new_keys
         ]
-        logger.warning("%s: 수집 0건 → 이전 데이터 %d건 유지", name, len(kept))
+        log = logger.warning if not events else logger.info
+        log("%s: 신규 %d건 + 이전 데이터 유지 %d건", name, len(events), len(kept))
+        merged.extend(events)
         merged.extend(kept)
 
     return merged
@@ -81,8 +85,8 @@ def _with_fallback(results: dict[str, list[dict]], previous_path: Path) -> list[
 def main() -> None:
     logger.info("=== Exhibition Tracker 실행 시작 ===")
 
-    # 1. 크롤링 (0건인 출처는 이전 결과로 폴백)
-    all_events = _with_fallback(_run_crawlers(), DEFAULT_PATH)
+    # 1. 크롤링 + 이전 결과의 미종료 행사 병합 (부분 실패·0건 대비)
+    all_events = _merge_with_previous(_run_crawlers(), DEFAULT_PATH)
     total = len(all_events)
 
     # 2. 필터링 (참고용 — 관련도는 저장 시 각 이벤트에 자동 태깅됨)

@@ -3,7 +3,8 @@
 - [x] DDP: 중간 인증서 번들(`crawlers/certs/`) + `session.verify` 적용
 - [x] summarize: DDP 상세 페이지 fetch에 같은 번들 전달
 - [x] KINTEX: www 도메인 직접 사용, 타임아웃 (20,30), 재시도 3회 백오프
-- [x] main.py: 실패/0건 출처는 기존 JSON에서 미종료 이벤트 재사용 (폴백)
+- [x] main.py: 출처별로 신규 수집 + 이전 미종료 이벤트 병합 (부분 실패·0건 모두 대응)
+- [x] KINTEX: 페이지 요청 실패 시 이미 수집한 페이지까지 반환
 - [x] 로컬 검증: test_crawlers.py ddp/kintex, main.py, 폴백 시나리오
 - [x] lessons.md 기록
 - [x] 커밋·푸시 → Actions 수동 실행으로 확인
